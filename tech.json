@@ -1,0 +1,2741 @@
+[{
+	"area": "physics",
+	"category": "Computing",
+	"description": "Testable predictions of observable phenomena.",
+	"feature_unlocks": ["Unlocks Building: Basic Science Lab I"],
+	"is": [false, false, false, true],
+	"key": "basic_science_lab_1",
+	"name": "Scientific Method",
+	"prerequisites": [],
+	"tier": 0
+}, {
+	"area": "physics",
+	"category": "Industry",
+	"description": "This energy source generates power through induced fission, but it also produces harmful nuclear waste.",
+	"feature_unlocks": ["Unlocks Component: Small Fission Reactor", "Unlocks Component: Medium Fission Reactor", "Unlocks Component: Large Fission Reactor"],
+	"is": [false, false, false, true],
+	"key": "fission_power",
+	"name": "Fission Power",
+	"prerequisites": [],
+	"tier": 0
+}, {
+	"area": "physics",
+	"category": "Industry",
+	"description": "Capacitors capable of storing vast amounts of energy is one of the cornerstones for any modern civilization.",
+	"feature_unlocks": ["Unlocks Building: Power Plant I"],
+	"is": [false, false, false, true],
+	"key": "power_plant_1",
+	"name": "High-Energy Capacitors",
+	"prerequisites": [],
+	"tier": 0
+}, {
+	"area": "physics",
+	"category": "Field Manipulation",
+	"description": "By tunneling directly through subspace, a temporary conduit can be established between two different points in normal space. Travel between these points would be near instantaneous.",
+	"feature_unlocks": ["Unlocks Station: Wormhole Station"],
+	"is": [false, false, false, true],
+	"key": "wormhole_generation_1",
+	"name": "Subspace Wormholes",
+	"prerequisites": [],
+	"tier": 0
+}, {
+	"area": "physics",
+	"category": "Particles",
+	"description": "Like the strands of a spider web, the extra-dimensional realm of hyperspace runs between the gravity wells of most stars. Faster than light travel is theoretically possible along these hyperlanes.",
+	"feature_unlocks": ["Unlocks Component: Hyperdrive I", "Unlocks Feature: Hyperlane Mapping"],
+	"is": [false, false, false, true],
+	"key": "hyper_drive_1",
+	"name": "Hyperspace Travel",
+	"prerequisites": [],
+	"tier": 0
+}, {
+	"area": "physics",
+	"category": "Field Manipulation",
+	"description": "By enveloping a vessel in a warp field and forming a subspace bubble around it, velocities exceeding the speed of light are theoretically possible.",
+	"feature_unlocks": ["Unlocks Component: Warp Drive I"],
+	"is": [false, false, false, true],
+	"key": "warp_drive_1",
+	"name": "Warp Travel",
+	"prerequisites": [],
+	"tier": 0
+}, {
+	"area": "physics",
+	"category": "Particles",
+	"description": "More powerful than red lasers, these blue variants emit electromagnetic radiation at a wavelength that appears blue or violet to most organics.",
+	"feature_unlocks": ["Unlocks Component: Small Blue Laser", "Unlocks Component: Medium Blue Laser", "Unlocks Component: Large Blue Laser"],
+	"is": [false, false, false, false],
+	"key": "lasers_2",
+	"name": "Blue Lasers",
+	"prerequisites": ["lasers_1"],
+	"tier": 1
+}, {
+	"area": "physics",
+	"category": "Computing",
+	"description": "The best defense is a good offense.",
+	"feature_unlocks": ["Unlocks Component: Sentinel Point-Defense"],
+	"is": [false, false, false, false],
+	"key": "pd_tracking_1",
+	"name": "Active Countermeasures",
+	"prerequisites": ["administrative_ai"],
+	"tier": 1
+}, {
+	"area": "physics",
+	"category": "Computing",
+	"description": "High-capacity quantum bands dedicated to databank transfers make possible virtually completely synchronous research operations across vast distances.",
+	"feature_unlocks": ["Unlocks Feature: Assist Research", "Unlocks Feature: Assist Research"],
+	"is": [false, false, false, false],
+	"key": "databank_uplinks",
+	"name": "Databank Uplinks",
+	"prerequisites": [],
+	"tier": 1
+}, {
+	"area": "physics",
+	"category": "Computing",
+	"description": "Exploring the mediation of fundamental forces through subatomic particles.",
+	"feature_unlocks": ["Unlocks Building: Physics Lab I"],
+	"is": [false, false, false, false],
+	"key": "physics_lab_1",
+	"name": "Quantum Theory",
+	"prerequisites": ["basic_science_lab_1"],
+	"tier": 1
+}, {
+	"area": "physics",
+	"category": "Computing",
+	"description": "Organizational circuitry rerouting academic fervor.",
+	"feature_unlocks": ["Research Speed: +5%"],
+	"is": [false, false, false, false],
+	"key": "administrative_ai",
+	"name": "Administrative AI",
+	"prerequisites": ["basic_science_lab_1"],
+	"tier": 1
+}, {
+	"area": "physics",
+	"category": "Computing",
+	"description": "By giving control of the colony ship to an Artificial Intelligence, the crew and colonists can be suspended in a deep sleep.",
+	"feature_unlocks": ["Colony Development Speed: +50%", "Colony Ship Build Cost: -25%"],
+	"is": [false, false, false, false],
+	"key": "cryostasis_1",
+	"name": "AI-Controlled Colony Ships",
+	"prerequisites": ["administrative_ai", "colonization_1"],
+	"tier": 1
+}, {
+	"area": "physics",
+	"category": "Computing",
+	"description": "Active matrices tuned for specific combat-centric tasks greatly improve engagement efficiency.",
+	"feature_unlocks": ["Unlocks Component: Basic Combat Roles"],
+	"is": [false, false, false, false],
+	"key": "combat_computers_1",
+	"name": "Specialized Combat Computers",
+	"prerequisites": ["administrative_ai"],
+	"tier": 1
+}, {
+	"area": "physics",
+	"category": "Computing",
+	"description": "Aligning defensive and offensive weapon execution paradigms allows for increased efficiency.",
+	"feature_unlocks": ["Unlocks Module: Synchronized Defenses"],
+	"is": [false, true, false, false],
+	"key": "synchronized_defences",
+	"name": "Synchronized Defenses",
+	"prerequisites": ["administrative_ai"],
+	"tier": 1
+}, {
+	"area": "physics",
+	"category": "Particles",
+	"description": "Nuclear fusion processes generate a great amount of power, but without many of the risks associated with fission power.",
+	"feature_unlocks": ["Energy Storage Capacity: +1000", "Unlocks Component: Small Fusion Reactor", "Unlocks Component: Medium Fusion Reactor", "Unlocks Component: Large Fusion Reactor"],
+	"is": [false, false, false, false],
+	"key": "fusion_power",
+	"name": "Fusion Power",
+	"prerequisites": ["fission_power"],
+	"tier": 1
+}, {
+	"area": "physics",
+	"category": "Field Manipulation",
+	"description": "Energy deflector screens can stop a limited amount of incoming enemy fire before overloading. Their main drawback is that they consume large amounts of power.",
+	"feature_unlocks": ["Planet Fortification Toughness: +20%", "Unlocks Component: Small Deflectors", "Unlocks Component: Medium Deflectors", "Unlocks Component: Large Deflectors"],
+	"is": [false, false, false, false],
+	"key": "shields_1",
+	"name": "Deflectors",
+	"prerequisites": [],
+	"tier": 1
+}, {
+	"area": "physics",
+	"category": "Field Manipulation",
+	"description": "These updated deflector screens are capable of soaking up even more punishment before they overload.",
+	"feature_unlocks": ["Planet Fortification Toughness: +20%", "Unlocks Component: Small Improved Deflectors", "Unlocks Component: Medium Improved Deflectors", "Unlocks Component: Large Improved Deflectors"],
+	"is": [false, false, false, false],
+	"key": "shields_2",
+	"name": "Improved Deflectors",
+	"prerequisites": ["shields_1"],
+	"tier": 1
+}, {
+	"area": "physics",
+	"category": "Voidcraft",
+	"description": "These sensors have been tuned to look for any gravitational changes in space, such as those produced by the presence of a starship.",
+	"feature_unlocks": ["Survey Speed: +15%", "Unlocks Component: Gravitic Sensors"],
+	"is": [false, false, false, false],
+	"key": "sensors_2",
+	"name": "Gravitic Sensors",
+	"prerequisites": [],
+	"tier": 1
+}, {
+	"area": "physics",
+	"category": "Voidcraft",
+	"description": "Powerful sensor arrays that can be added to the structure of orbital spaceports. They provide excellent sensor coverage of the surrounding region of space.",
+	"feature_unlocks": ["Unlocks Module: Observatory"],
+	"is": [false, true, false, false],
+	"key": "orbital_sensor_array",
+	"name": "Orbital Sensor Arrays",
+	"prerequisites": ["sensors_2"],
+	"tier": 1
+}, {
+	"area": "physics",
+	"category": "Industry",
+	"description": "Modulated fields allow for increased production and improved energy yield.",
+	"feature_unlocks": ["Energy Storage Capacity: +2000", "Unlocks Building: Power Plant II"],
+	"is": [false, false, false, false],
+	"key": "power_plant_2",
+	"name": "Field Modulation",
+	"prerequisites": ["power_plant_1"],
+	"tier": 1
+}, {
+	"area": "physics",
+	"category": "Industry",
+	"description": "Basic entanglement principles applied to energy generation provide a substantial increase in energy output.",
+	"feature_unlocks": ["Energy Storage Capacity: +2000", "Unlocks Building: Power Plant III"],
+	"is": [false, false, false, false],
+	"key": "power_plant_3",
+	"name": "Quantum Energy States",
+	"prerequisites": ["power_plant_2", "colonial_centralization"],
+	"tier": 1
+}, {
+	"area": "physics",
+	"category": "Industry",
+	"description": "Advances in solar panel technology could potentially reduce the operating costs of our spaceports. The panels would require an entire spaceport module to generate enough energy, however.",
+	"feature_unlocks": ["Unlocks Module: Solar Panel Network"],
+	"is": [false, false, false, false],
+	"key": "solar_panel_network",
+	"name": "Orbital Energy Conversion",
+	"prerequisites": ["space_construction"],
+	"tier": 1
+}, {
+	"area": "physics",
+	"category": "Industry",
+	"description": "Load-balancing facilities can greatly improve the stability of local grids and feed excess power back into centralized capacitors.",
+	"feature_unlocks": ["Energy Storage Capacity: +2500", "Unlocks Building: Energy Grid", "Unlocks Edict: Capacity Overload"],
+	"is": [false, false, false, false],
+	"key": "power_hub_1",
+	"name": "Global Energy Management",
+	"prerequisites": ["power_plant_1"],
+	"tier": 1
+}, {
+	"area": "physics",
+	"category": "Field Manipulation",
+	"description": "Small concentrations of this gas has been shown to significantly strengthen the integrity of energy force fields. It also has a dulling effect on the minds of creatures exposed to the gas.",
+	"feature_unlocks": ["Reveals Resource: Lythuric Gas ([[sr_lythuric]])"],
+	"is": [false, false, false, false],
+	"key": "lythuric_gas",
+	"name": "Lythuric Gas Refining",
+	"prerequisites": ["sensors_2"],
+	"tier": 1
+}, {
+	"area": "physics",
+	"category": "Particles",
+	"description": "Laser weapons fire focused beams of light at targets, causing damage through the generation of intense heat.",
+	"feature_unlocks": ["Unlocks Component: Small Red Laser", "Unlocks Component: Medium Red Laser", "Unlocks Component: Large Red Laser", "Unlocks Module: Laser Defense Module"],
+	"is": [false, false, false, false],
+	"key": "lasers_1",
+	"name": "Red Lasers",
+	"prerequisites": [],
+	"tier": 2
+}, {
+	"area": "physics",
+	"category": "Particles",
+	"description": "Ultraviolet lasers are an updated and more powerful version of their blue predecessors. Accurate and destructive, these weapons are capable of inflicting great damage.",
+	"feature_unlocks": ["Unlocks Component: Small UV Laser", "Unlocks Component: Medium UV Laser", "Unlocks Component: Large UV Laser"],
+	"is": [false, false, false, false],
+	"key": "lasers_3",
+	"name": "UV Lasers",
+	"prerequisites": ["lasers_2"],
+	"tier": 2
+}, {
+	"area": "physics",
+	"category": "Particles",
+	"description": "These lasers have a shorter wavelength than UV-based laser weaponry, but are even more destructive.",
+	"feature_unlocks": ["Unlocks Component: Small X-Ray Laser", "Unlocks Component: Medium X-Ray Laser", "Unlocks Component: Large X-Ray Laser"],
+	"is": [false, false, false, false],
+	"key": "lasers_4",
+	"name": "X-Ray Lasers",
+	"prerequisites": ["lasers_3"],
+	"tier": 2
+}, {
+	"area": "physics",
+	"category": "Particles",
+	"description": "Weapons that eject destructive balls of high-energy plasma at targets. These plasma projectiles are extremely effective at eating through ship armor.",
+	"feature_unlocks": ["Unlocks Component: Small Plasma Thrower", "Unlocks Component: Medium Plasma Thrower", "Unlocks Component: Large Plasma Thrower"],
+	"is": [false, false, false, false],
+	"key": "plasma_1",
+	"name": "Plasma Throwers",
+	"prerequisites": [],
+	"tier": 2
+}, {
+	"area": "physics",
+	"category": "Particles",
+	"description": "These new accelerators launch projectiles of high-energy plasma with improved containment fields. This results in less energy leakage as the projectile travels in space towards its target.",
+	"feature_unlocks": ["Unlocks Component: Small Plasma Accelerator", "Unlocks Component: Medium Plasma Accelerator", "Unlocks Component: Large Plasma Accelerator"],
+	"is": [false, false, false, false],
+	"key": "plasma_2",
+	"name": "Plasma Accelerators",
+	"prerequisites": ["plasma_1"],
+	"tier": 2
+}, {
+	"area": "physics",
+	"category": "Particles",
+	"description": "Disruptors fire high-energy bolts that weaken and destroy the molecular bonds that hold the target's constituent atoms together. They are particularly effective against shields.",
+	"feature_unlocks": ["Unlocks Component: Small Disruptor", "Unlocks Component: Medium Disruptor", "Unlocks Component: Large Disruptor"],
+	"is": [false, false, false, false],
+	"key": "disruptors_1",
+	"name": "Disruptors",
+	"prerequisites": [],
+	"tier": 2
+}, {
+	"area": "physics",
+	"category": "Particles",
+	"description": "These upgraded disruptors fire bolts of more destructive ion particles at targets.",
+	"feature_unlocks": ["Unlocks Component: Small Ion Disruptor", "Unlocks Component: Medium Ion Disruptor", "Unlocks Component: Large Ion Disruptor"],
+	"is": [false, false, false, false],
+	"key": "disruptors_2",
+	"name": "Ion Disruptors",
+	"prerequisites": ["disruptors_1"],
+	"tier": 2
+}, {
+	"area": "physics",
+	"category": "Computing",
+	"description": "Arrays of defensive armaments prove much more effective than independent countermeasures.",
+	"feature_unlocks": ["Unlocks Component: Barrier Point-Defense"],
+	"is": [false, false, false, false],
+	"key": "pd_tracking_2",
+	"name": "Interlinked Support Systems",
+	"prerequisites": ["pd_tracking_1"],
+	"tier": 2
+}, {
+	"area": "physics",
+	"category": "Computing",
+	"description": "Miniaturization of the endpoint transmitters allow for installing them in clusters, further increasing bandwidth.",
+	"feature_unlocks": ["Unlocks Feature: Improved Assist Research"],
+	"is": [false, false, false, false],
+	"key": "improved_databank_uplinks",
+	"name": "Uplink Miniaturization",
+	"prerequisites": ["databank_uplinks"],
+	"tier": 2
+}, {
+	"area": "physics",
+	"category": "Computing",
+	"description": "These shipboard lab facilities incorporates advanced technologies from the ancient Curator Order to further increase survey speeds.",
+	"feature_unlocks": ["Unlocks Component: Curator Exploration Lab"],
+	"is": [false, true, false, false],
+	"key": "curator_lab",
+	"name": "Curator Exploration Lab",
+	"prerequisites": [],
+	"tier": 2
+}, {
+	"area": "physics",
+	"category": "Computing",
+	"description": "A shipboard lab with advanced archaeological equipment, including a vast database supplied by the Curator Order where new discoveries can easily be cross-referenced.",
+	"feature_unlocks": ["Unlocks Component: Curator Archeology Lab"],
+	"is": [false, true, false, false],
+	"key": "archeology_lab",
+	"name": "Curator Archeology Lab",
+	"prerequisites": [],
+	"tier": 2
+}, {
+	"area": "physics",
+	"category": "Computing",
+	"description": "The seemingly erratic behavior of tiny things can dramatically alter the way we think about bigger things.",
+	"feature_unlocks": ["Unlocks Building: Physics Lab II"],
+	"is": [false, false, false, false],
+	"key": "physics_lab_2",
+	"name": "Applied Quantum Physics",
+	"prerequisites": ["physics_lab_1", "colonial_centralization"],
+	"tier": 2
+}, {
+	"area": "physics",
+	"category": "Statecraft",
+	"description": "A bid for globalized resource pools and more flexible research grants.",
+	"feature_unlocks": ["Unlocks Building: Research Institute", "Unlocks Edict: Map the Stars"],
+	"is": [false, true, false, false],
+	"key": "global_research_initiative",
+	"name": "Global Research Initiative",
+	"prerequisites": ["physics_lab_1", "galactic_administration"],
+	"tier": 2
+}, {
+	"area": "physics",
+	"category": "Computing",
+	"description": "Sufficiently advanced systems are capable of optimizing themselves if they are made acutely aware of the purpose for which they were made.",
+	"feature_unlocks": ["Colony Development Speed: +50%", "Colony Ship Build Cost: -15%"],
+	"is": [false, false, false, false],
+	"key": "cryostasis_2",
+	"name": "Self-Aware Colony Ships",
+	"prerequisites": ["self_aware_logic", "cryostasis_1"],
+	"tier": 2
+}, {
+	"area": "physics",
+	"category": "Computing",
+	"description": "Introspective prioritization.",
+	"feature_unlocks": ["Research Alternatives: +1"],
+	"is": [false, false, false, false],
+	"key": "self_aware_logic",
+	"name": "Self-aware Logic",
+	"prerequisites": ["administrative_ai"],
+	"tier": 2
+}, {
+	"area": "physics",
+	"category": "Computing",
+	"description": "An advanced AI will aid science officers in their task to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no Blorg has gone before. The Science Ship will be able to explore the galaxy with help from an AI.",
+	"feature_unlocks": ["Survey Speed: +15%", "Unlocks Feature: Automatic Exploration", "Unlocks Feature: Automatic Exploration"],
+	"is": [false, false, false, false],
+	"key": "automated_exploration",
+	"name": "Automated Exploration Protocols",
+	"prerequisites": ["administrative_ai"],
+	"tier": 2
+}, {
+	"area": "physics",
+	"category": "Computing",
+	"description": "Further advances in predictive algorithms allow for augmented tactical decision-making in the field.",
+	"feature_unlocks": ["Unlocks Component: Advanced Combat Roles"],
+	"is": [false, false, false, false],
+	"key": "combat_computers_2",
+	"name": "Extended Combat Algorithms",
+	"prerequisites": ["combat_computers_1", "self_aware_logic"],
+	"tier": 2
+}, {
+	"area": "physics",
+	"category": "Particles",
+	"description": "The ability to sustain a fusion reaction at relatively low temperatures will result in a new generation of fusion reactors.",
+	"feature_unlocks": ["Energy Storage Capacity: +1000", "Unlocks Component: Small Cold Fusion Reactor", "Unlocks Component: Medium Cold Fusion Reactor", "Unlocks Component: Large Cold Fusion Reactor"],
+	"is": [false, false, false, false],
+	"key": "cold_fusion_power",
+	"name": "Cold Fusion Power",
+	"prerequisites": ["fusion_power"],
+	"tier": 2
+}, {
+	"area": "physics",
+	"category": "Field Manipulation",
+	"description": "These new shield generators represent the next generation of energy screens, replacing the older deflector technology. They offer significantly better protection.",
+	"feature_unlocks": ["Planet Fortification Toughness: +20%", "Unlocks Component: Small Shields", "Unlocks Component: Medium Shields", "Unlocks Component: Large Shields"],
+	"is": [false, false, false, false],
+	"key": "shields_3",
+	"name": "Shields",
+	"prerequisites": ["shields_2"],
+	"tier": 2
+}, {
+	"area": "physics",
+	"category": "Field Manipulation",
+	"description": "An updated shield generator that produces an even stronger energy field. Only sustained enemy fire can penetrate this barrier.",
+	"feature_unlocks": ["Planet Fortification Toughness: +20%", "Unlocks Component: Small Advanced Shields", "Unlocks Component: Medium Advanced Shields", "Unlocks Component: Large Advanced Shields"],
+	"is": [false, false, false, false],
+	"key": "shields_4",
+	"name": "Advanced Shields",
+	"prerequisites": ["shields_3"],
+	"tier": 2
+}, {
+	"area": "physics",
+	"category": "Field Manipulation",
+	"description": "These capacitors store surplus energy which can quickly be transferred in the event of shield failure. This will greatly increase the rate at which shields recharge.",
+	"feature_unlocks": ["Unlocks Component: Shield Capacitor"],
+	"is": [false, false, false, false],
+	"key": "shield_rechargers_1",
+	"name": "Shield Capacitors",
+	"prerequisites": ["shields_3"],
+	"tier": 2
+}, {
+	"area": "physics",
+	"category": "Field Manipulation",
+	"description": "Localized fields of charged particles can energize depleted shield capacitors.",
+	"feature_unlocks": ["Unlocks Component: Capacitor Fields"],
+	"is": [false, true, false, false],
+	"key": "shield_recharge_aura_1",
+	"name": "Capacitor Fields",
+	"prerequisites": ["shields_4"],
+	"tier": 2
+}, {
+	"area": "physics",
+	"category": "Field Manipulation",
+	"description": "Generating a strong energy shield within a planetary atmosphere is a greater challenge than in the vacuum of space, but it offers a potent defense against orbital bombardment.",
+	"feature_unlocks": ["Unlocks Building: Planetary Shield Generator"],
+	"is": [false, true, false, false],
+	"key": "planetary_shield_generator",
+	"name": "Planetary Shields",
+	"prerequisites": ["shields_2"],
+	"tier": 2
+}, {
+	"area": "physics",
+	"category": "Voidcraft",
+	"description": "Sensors that detect the subspace fluctuations left in the wake of traveling starships. Their sensitivity and range is greater than that of a gravitic sensor array.",
+	"feature_unlocks": ["Survey Speed: +5%", "Unlocks Component: Subspace Sensors"],
+	"is": [false, false, false, false],
+	"key": "sensors_3",
+	"name": "Subspace Sensors",
+	"prerequisites": ["sensors_2"],
+	"tier": 2
+}, {
+	"area": "physics",
+	"category": "Industry",
+	"description": "Quantum superposition of energy coils, simultaneously drained and charged.",
+	"feature_unlocks": ["Energy Storage Capacity: +2000", "Unlocks Building: Power Plant IV", "Unlocks Building: Power Plant V"],
+	"is": [false, false, false, false],
+	"key": "power_plant_4",
+	"name": "Quantum Field Manipulation",
+	"prerequisites": ["power_plant_3", "galactic_administration"],
+	"tier": 2
+}, {
+	"area": "physics",
+	"category": "Industry",
+	"description": "A re-engineered and unified grid further reduces energy losses over distance.",
+	"feature_unlocks": ["Energy Storage Capacity: +2500", "Unlocks Building: Energy Nexus"],
+	"is": [false, false, false, false],
+	"key": "power_hub_2",
+	"name": "Planetary Power Grid",
+	"prerequisites": ["power_hub_1", "colonial_centralization"],
+	"tier": 2
+}, {
+	"area": "physics",
+	"category": "Field Manipulation",
+	"description": "The creation of a stable wormhole takes time and requires massive amounts of energy, but the process can be streamlined with the use of special calibrators.",
+	"feature_unlocks": ["Wormhole Generation Rate: +25%", "Wormhole Range: +50%"],
+	"is": [false, false, false, false],
+	"key": "wormhole_generation_2",
+	"name": "Wormhole Calibration Matrix",
+	"prerequisites": ["wormhole_generation_1"],
+	"tier": 2
+}, {
+	"area": "physics",
+	"category": "Particles",
+	"description": "We have identified the existence of points in space where a ship expends less energy to \"breach\" their way into a hyperlane. This will lead to a new generation of hyper drives.",
+	"feature_unlocks": ["Unlocks Component: Hyperdrive II"],
+	"is": [false, false, false, false],
+	"key": "hyper_drive_2",
+	"name": "Hyperlane Breach Points",
+	"prerequisites": ["hyper_drive_1"],
+	"tier": 2
+}, {
+	"area": "physics",
+	"category": "Particles",
+	"description": "Although we do not travel through hyperspace, mapping the galaxy's extensive hyperlane network gives us a clear advantage against those who do.",
+	"feature_unlocks": ["Unlocks Feature: Hyperlane Mapping", "Unlocks Feature: Hyperlane Mapping"],
+	"is": [false, true, false, false],
+	"key": "hyperlane_mapping",
+	"name": "Hyperlane Mapping",
+	"prerequisites": [],
+	"tier": 2
+}, {
+	"area": "physics",
+	"category": "Field Manipulation",
+	"description": "Improved stabilization techniques for warp fields will enable our ships to travel farther while expending less energy.",
+	"feature_unlocks": ["Unlocks Component: Warp Drive II"],
+	"is": [false, false, false, false],
+	"key": "warp_drive_2",
+	"name": "Warp Field Stabilizers",
+	"prerequisites": ["warp_drive_1"],
+	"tier": 2
+}, {
+	"area": "physics",
+	"category": "Field Manipulation",
+	"description": "Quantum Destabilizers agitate the local quantum field, disturbing sensitive targeting equipment aboard hostile ships.",
+	"feature_unlocks": ["Unlocks Component: Quantum Destabilizer"],
+	"is": [false, true, false, false],
+	"key": "aura_quantum_destabilizer",
+	"name": "Quantum Destabilizer",
+	"prerequisites": ["shields_3"],
+	"tier": 2
+}, {
+	"area": "physics",
+	"category": "Psionics",
+	"description": "An extremely rare aerosol of exotic particles. It has been deposited on a number of worlds through meteor impacts, but its true origin is a mystery. If ingested by psionically-gifted individuals, Zro acts as a very potent (and addictive) drug that enhances Psi abilities.",
+	"feature_unlocks": ["Reveals Resource: Zro ([[sr_zro]])"],
+	"is": [false, true, false, false],
+	"key": "mine_zro",
+	"name": "Zro Distillation",
+	"prerequisites": ["sensors_3"],
+	"tier": 2
+}, {
+	"area": "physics",
+	"category": "Materials",
+	"description": "This gas is a naturally occurring stimulant found on some worlds. It has a calming effect on most beings, and can be used as a non-violent way of pacifying hostile individuals.",
+	"feature_unlocks": ["Reveals Resource: Satramene Gas ([[sr_satramene]])"],
+	"is": [false, false, false, false],
+	"key": "mine_satramene",
+	"name": "Satramene Refining",
+	"prerequisites": ["sensors_3"],
+	"tier": 2
+}, {
+	"area": "physics",
+	"category": "Particles",
+	"description": "The electromagnetic radiation emitted by gamma lasers is of an extremely high frequency. Their destructive potential is unmatched in the field of laser weapons.",
+	"feature_unlocks": ["Unlocks Component: Small Gamma Laser", "Unlocks Component: Medium Gamma Laser", "Unlocks Component: Large Gamma Laser"],
+	"is": [false, false, false, false],
+	"key": "lasers_5",
+	"name": "Gamma Lasers",
+	"prerequisites": ["lasers_4"],
+	"tier": 3
+}, {
+	"area": "physics",
+	"category": "Particles",
+	"description": "These heavy energy weapons fire focused particle beams that cause massive damage. The size of the emitter arrays limits their use to large turret mounts.",
+	"feature_unlocks": ["Unlocks Component: Particle Lance"],
+	"is": [false, false, false, false],
+	"key": "energy_lance_1",
+	"name": "Particle Lances",
+	"prerequisites": ["lasers_5", "spaceport_6"],
+	"tier": 3
+}, {
+	"area": "physics",
+	"category": "Particles",
+	"description": "A more powerful version of the particle lance, this weapon fires a tachyon beam of immense power. Like its predecessor, its use is limited to large turrets.",
+	"feature_unlocks": ["Unlocks Component: Tachyon Lance"],
+	"is": [false, false, false, false],
+	"key": "energy_lance_2",
+	"name": "Tachyon Lances",
+	"prerequisites": ["energy_lance_1"],
+	"tier": 3
+}, {
+	"area": "physics",
+	"category": "Particles",
+	"description": "The latest in plasma weaponry, these cannons are fully militarized versions of the older, somewhat improvised plasma throwers. Their plasma projectiles are even deadlier.",
+	"feature_unlocks": ["Unlocks Component: Small Plasma Cannon", "Unlocks Component: Medium Plasma Cannon", "Unlocks Component: Large Plasma Cannon"],
+	"is": [false, false, false, false],
+	"key": "plasma_3",
+	"name": "Plasma Cannons",
+	"prerequisites": ["plasma_2"],
+	"tier": 3
+}, {
+	"area": "physics",
+	"category": "Particles",
+	"description": "Powerful weapons that launch a lightning arc of chaotic energy at targets, which in part can ignore armor and shields.",
+	"feature_unlocks": ["Unlocks Component: Arc Emitter"],
+	"is": [false, false, false, false],
+	"key": "arc_emitter_1",
+	"name": "Arc Emitters",
+	"prerequisites": ["plasma_3", "spaceport_6"],
+	"tier": 3
+}, {
+	"area": "physics",
+	"category": "Particles",
+	"description": "These upgraded emitters are equipped with better focusing lenses, resulting in a more powerful energy discharge.",
+	"feature_unlocks": ["Unlocks Component: Focused Arc Emitter"],
+	"is": [false, false, false, false],
+	"key": "arc_emitter_2",
+	"name": "Focused Arc Emitters",
+	"prerequisites": ["arc_emitter_1"],
+	"tier": 3
+}, {
+	"area": "physics",
+	"category": "Particles",
+	"description": "Extremely high-yield disruptors that fire quantum energy charges causing incredible damage to those unfortunate enough to get in their way.",
+	"feature_unlocks": ["Unlocks Component: Small Phased Disruptor", "Unlocks Component: Medium Phased Disruptor", "Unlocks Component: Large Phased Disruptor"],
+	"is": [false, false, false, false],
+	"key": "disruptors_3",
+	"name": "Phase Disruptors",
+	"prerequisites": ["disruptors_2"],
+	"tier": 3
+}, {
+	"area": "physics",
+	"category": "Particles",
+	"description": "These energy torpedoes consist of tightly concentrated protons, and they are capable of completely penetrating deflector screens or shield systems.",
+	"feature_unlocks": ["Unlocks Component: Proton Torpedoes"],
+	"is": [false, false, false, false],
+	"key": "energy_torpedoes_1",
+	"name": "Proton Torpedoes",
+	"prerequisites": ["disruptors_1"],
+	"tier": 3
+}, {
+	"area": "physics",
+	"category": "Particles",
+	"description": "Upgraded energy torpedoes that rely on neutrons instead of protons for their destructive power. Like their predecessors, they cannot be stopped by energy shields.",
+	"feature_unlocks": ["Unlocks Component: Neutron Torpedoes"],
+	"is": [false, false, false, false],
+	"key": "energy_torpedoes_2",
+	"name": "Neutron Torpedoes",
+	"prerequisites": ["energy_torpedoes_1"],
+	"tier": 3
+}, {
+	"area": "physics",
+	"category": "Computing",
+	"description": "Advanced prediction greatly increases the accuracy of active countermeasure systems.",
+	"feature_unlocks": ["Unlocks Component: Guardian Point-Defense"],
+	"is": [false, false, false, false],
+	"key": "pd_tracking_3",
+	"name": "Predictive Algorithms",
+	"prerequisites": ["pd_tracking_2"],
+	"tier": 3
+}, {
+	"area": "physics",
+	"category": "Particles",
+	"description": "Applying 5th-dimensional energy manipulation principles on lower dimensional planes allows for the creation of powerful energy weapons.",
+	"feature_unlocks": ["Unlocks Component: Small Matter Disintegrator", "Unlocks Component: Medium Matter Disintegrator", "Unlocks Component: Large Matter Disintegrator"],
+	"is": [false, true, false, false],
+	"key": "extradimensional_weapon_1",
+	"name": "Extradimensional Weaponry",
+	"prerequisites": [],
+	"tier": 3
+}, {
+	"area": "physics",
+	"category": "Industry",
+	"description": "The universe tends irresistibly onwards and downwards. That tendency cannot be reversed... but it can be subverted, for a price.",
+	"feature_unlocks": ["Omega Theory"],
+	"is": [false, true, false, false],
+	"key": "akx_worm_1",
+	"name": "Entropic Recursion",
+	"prerequisites": [],
+	"tier": 3
+}, {
+	"area": "physics",
+	"category": "Voidcraft",
+	"description": "When a temporal paradox becomes tangled, a kind of consciousness arises, with its own needs, its own desires. This is what has occurred with the consciousness that some call the Worm-in-Waiting. If we can align ourselves with that consciousness, we might just achieve a kind of immortality.",
+	"feature_unlocks": ["Omega Theory"],
+	"is": [false, true, false, false],
+	"key": "akx_worm_3",
+	"name": "Omega Theory",
+	"prerequisites": ["akx_worm_1", "akx_worm_2"],
+	"tier": 3
+}, {
+	"area": "physics",
+	"category": "Computing",
+	"description": "Three dimensions, inextricable from the fourth.",
+	"feature_unlocks": ["Unlocks Building: Physics Lab III", "Unlocks Building: Physics Lab IV"],
+	"is": [false, false, false, false],
+	"key": "physics_lab_3",
+	"name": "Space-Time Theory",
+	"prerequisites": ["physics_lab_2", "galactic_administration"],
+	"tier": 3
+}, {
+	"area": "physics",
+	"category": "Computing",
+	"description": "Evolving intellects advance science not only as subjects of study, but as researchers themselves.",
+	"feature_unlocks": ["Research Speed: +10%"],
+	"is": [true, true, false, false],
+	"key": "sentient_ai",
+	"name": "Sentient AI",
+	"prerequisites": ["self_aware_logic"],
+	"tier": 3
+}, {
+	"area": "physics",
+	"category": "Computing",
+	"description": "Running sentient AIs through high-intensity combat simulations yields valuable insight into potential optimizations for risk-evaluation techniques.",
+	"feature_unlocks": ["Unlocks Component: Sentient Combat AI"],
+	"is": [false, true, false, false],
+	"key": "combat_computers_3",
+	"name": "Sentient Combat Simulations",
+	"prerequisites": ["combat_computers_2", "sentient_ai"],
+	"tier": 3
+}, {
+	"area": "physics",
+	"category": "Particles",
+	"description": "By harnessing the energy produced by matter/antimatter annihilations, our efficiency at generating power will be orders of magnitude better than fusion.",
+	"feature_unlocks": ["Energy Storage Capacity: +1000", "Unlocks Component: Small Antimatter Reactor", "Unlocks Component: Medium Antimatter Reactor", "Unlocks Component: Large Antimatter Reactor"],
+	"is": [false, false, false, false],
+	"key": "antimatter_power",
+	"name": "Antimatter Power",
+	"prerequisites": ["cold_fusion_power"],
+	"tier": 3
+}, {
+	"area": "physics",
+	"category": "Particles",
+	"description": "These generators extract vacuum energy, providing an almost limitless supply of power. There is no more efficient way to generate energy.",
+	"feature_unlocks": ["Energy Storage Capacity: +1000", "Unlocks Component: Small Zero Point Reactor", "Unlocks Component: Medium Zero Point Reactor", "Unlocks Component: Large Zero Point Reactor"],
+	"is": [false, false, false, false],
+	"key": "zero_point_power",
+	"name": "Zero Point Power",
+	"prerequisites": ["antimatter_power"],
+	"tier": 3
+}, {
+	"area": "physics",
+	"category": "Field Manipulation",
+	"description": "These reinforced and hardened energy shields are incredibly powerful. The protection they offer is second to none.",
+	"feature_unlocks": ["Planet Fortification Toughness: +20%", "Unlocks Component: Small Hyper Shields", "Unlocks Component: Medium Hyper Shields", "Unlocks Component: Large Hyper Shields"],
+	"is": [false, false, false, false],
+	"key": "shields_5",
+	"name": "Hyper Shields",
+	"prerequisites": ["shields_4"],
+	"tier": 3
+}, {
+	"area": "physics",
+	"category": "Voidcraft",
+	"description": "Advanced sensors that rely on rotating tachyon beams to detect ship movements even at extreme distances.",
+	"feature_unlocks": ["Survey Speed: +5%", "Unlocks Component: Tachyon Sensors"],
+	"is": [false, false, false, false],
+	"key": "sensors_4",
+	"name": "Tachyon Sensors",
+	"prerequisites": ["sensors_3"],
+	"tier": 3
+}, {
+	"area": "physics",
+	"category": "Field Manipulation",
+	"description": "These containment fields allow for the creation of more powerful wormholes without the risk of triggering a sudden subspace energy cascade.",
+	"feature_unlocks": ["Wormhole Generation Rate: +25%", "Wormhole Range: +50%"],
+	"is": [false, false, false, false],
+	"key": "wormhole_generation_3",
+	"name": "Wormhole Containment Fields",
+	"prerequisites": ["wormhole_generation_2"],
+	"tier": 3
+}, {
+	"area": "physics",
+	"category": "Particles",
+	"description": "A new generation of hyper drives capable of accessing the subspace slipstreams that are present within hyperspace. This leads to dramatically improved drive performance.",
+	"feature_unlocks": ["Unlocks Component: Hyperdrive III"],
+	"is": [false, false, false, false],
+	"key": "hyper_drive_3",
+	"name": "Hyperspace Slipstreams",
+	"prerequisites": ["hyper_drive_2"],
+	"tier": 3
+}, {
+	"area": "physics",
+	"category": "Field Manipulation",
+	"description": "These revolutionary ramscoops are attached to warp drives and function as particle collectors, replenishing a starship's fuel supply.",
+	"feature_unlocks": ["Unlocks Component: Warp Drive III"],
+	"is": [false, false, false, false],
+	"key": "warp_drive_3",
+	"name": "Warp Drive Ramscoops",
+	"prerequisites": ["warp_drive_2"],
+	"tier": 3
+}, {
+	"area": "physics",
+	"category": "Field Manipulation",
+	"description": "A groundbreaking technological marvel, the Jump Drive shreds the local space-time continuum and rearranges it on the quantum level to be identical to that of the target destination - and thus the ship appears to near-instantly \"jump\" from system to system.",
+	"feature_unlocks": ["Unlocks Component: Jump Drive"],
+	"is": [true, true, false, false],
+	"key": "jump_drive_1",
+	"name": "Jump Drive",
+	"prerequisites": ["zero_point_power"],
+	"tier": 3
+}, {
+	"area": "physics",
+	"category": "Industry",
+	"description": "Minor improvements to transmission efficiency adds up to a sizeable reduction in overall energy loss.",
+	"feature_unlocks": ["Energy Credits: +5%"],
+	"is": [false, false, true, false],
+	"key": "improved_tile_energy_output",
+	"name": "Applied Superconductivity",
+	"prerequisites": ["power_plant_3"],
+	"tier": 3
+}, {
+	"area": "physics",
+	"category": "Field Manipulation",
+	"description": "The basic mechanics of ship shields are complex, but they can be adjusted and improved in a multitude of ways.",
+	"feature_unlocks": ["Shield Hit Points: +5%"],
+	"is": [false, false, true, false],
+	"key": "improved_shield_output",
+	"name": "Shield Harmonics",
+	"prerequisites": ["shields_4"],
+	"tier": 3
+}, {
+	"area": "physics",
+	"category": "Particles",
+	"description": "Perfecting the firing cadence of laser weaponry is a task that could keep the engineering elite of any given planet busy for centuries.",
+	"feature_unlocks": ["Energy Weapon Damage: +5%"],
+	"is": [false, false, true, false],
+	"key": "weapon_type_energy_damage",
+	"name": "Focusing Arrays",
+	"prerequisites": ["lasers_4"],
+	"tier": 3
+}, {
+	"area": "physics",
+	"category": "Particles",
+	"description": "New developments in tech cooling regularly surface, improving the stability and efficiency of our weapons systems, keeping them from blowing up the ships upon which they are mounted.",
+	"feature_unlocks": ["Energy Weapon Attack Speed: +5%"],
+	"is": [false, false, true, false],
+	"key": "weapon_type_energy_fire_rate",
+	"name": "Flash Coolant",
+	"prerequisites": ["lasers_2"],
+	"tier": 3
+}, {
+	"area": "physics",
+	"category": "Voidcraft",
+	"description": "As our fleets roam every further from our ancestral home, our sensor technology continuously pushes past the limits of old.",
+	"feature_unlocks": ["Planet Sensor Range: +10%"],
+	"is": [false, false, true, false],
+	"key": "improved_planet_sensor_range",
+	"name": "Planetary Signal Boosters",
+	"prerequisites": ["sensors_3"],
+	"tier": 3
+}, {
+	"area": "physics",
+	"category": "Computing",
+	"description": "Increasingly powerful computation paradigms allow us to adapt individual construction projects to planetary and ultra-local gravitational conditions.",
+	"feature_unlocks": ["Building Cost: -5%"],
+	"is": [false, false, true, false],
+	"key": "reduced_building_cost",
+	"name": "Gravitational Analysis",
+	"prerequisites": ["physics_lab_2"],
+	"tier": 3
+}, {
+	"area": "physics",
+	"category": "Materials",
+	"description": "Neutronium is a super-dense substance composed of neutrons that can be forged into extremely resistant and durable armor.",
+	"feature_unlocks": ["Reveals Resource: Neutronium Ore ([[sr_neutronium]])"],
+	"is": [false, false, false, false],
+	"key": "mine_neutronium",
+	"name": "Neutronium Extraction",
+	"prerequisites": ["sensors_4"],
+	"tier": 3
+}, {
+	"area": "physics",
+	"category": "Field Manipulation",
+	"description": "This exotic substance has many properties that seemingly defy the laws of physics. Harvestable concentrations can only be found near Black Holes or in certain nebulas.",
+	"feature_unlocks": ["Reveals Resource: Dark Matter ([[sr_dark_matter]])"],
+	"is": [false, false, false, false],
+	"key": "mine_dark_matter",
+	"name": "Dark Matter Drawing",
+	"prerequisites": ["sensors_4"],
+	"tier": 3
+}, {
+	"area": "physics",
+	"category": "Computing",
+	"description": "Our history is a repeating cycle of dramatic technological, political, and cultural leaps; these leaps are often preceded by periods of upheaval and followed by times of relative stability. By identifying the core, recurring premises of these leaps, we may be able to effectively short-circuit the cycle for our own benefit.",
+	"feature_unlocks": ["Ascension Perks: +1"],
+	"is": [false, true, false, false],
+	"key": "ascension_theory",
+	"name": "Ascension Theory",
+	"prerequisites": [],
+	"tier": 4
+}, {
+	"area": "society",
+	"category": "Military Theory",
+	"description": "There may come a time when intellects, vast and cool and unsympathetic, regard our worlds with envy and draw plans against us. We must be ready.",
+	"feature_unlocks": ["Unlocks Army: Defense Army"],
+	"is": [false, false, false, true],
+	"key": "defense_army",
+	"name": "Planetary Defenses",
+	"prerequisites": [],
+	"tier": 0
+}, {
+	"area": "society",
+	"category": "Biology",
+	"description": "Large-scale hydroponics farms producing nutrient-rich produce helps sustain a growing population while minimizing negative environmental impact.",
+	"feature_unlocks": ["Unlocks Building: Hydroponics Farm I"],
+	"is": [false, false, false, true],
+	"key": "eco_simulation",
+	"name": "Hydroponics",
+	"prerequisites": [],
+	"tier": 0
+}, {
+	"area": "society",
+	"category": "New Worlds",
+	"description": "Calculating required resources and gear required to establish a planetary colony allows us to herd brave pioneers into grand \"ark ships,\" confident that they will survive the long voyage across the stars to a new home.",
+	"feature_unlocks": ["Unlocks Ship Type: Colony Ship"],
+	"is": [false, false, false, true],
+	"key": "colonization_1",
+	"name": "New Worlds Protocol",
+	"prerequisites": ["spaceport_1"],
+	"tier": 0
+}, {
+	"area": "society",
+	"category": "Statecraft",
+	"description": "Once a colony has been firmly established and pioneers turn into citizens, the need for a strong local government providing stability trumps the colonial need for flexibility.",
+	"feature_unlocks": ["Unlocks Building: Planetary Administration"],
+	"is": [false, false, false, true],
+	"key": "planetary_government",
+	"name": "Planetary Government",
+	"prerequisites": [],
+	"tier": 0
+}, {
+	"area": "society",
+	"category": "Statecraft",
+	"description": "An understanding of a shared past is necessary in order to make any significant strides into the future.",
+	"feature_unlocks": ["Unlocks Building: Autochthon Monument"],
+	"is": [false, false, false, true],
+	"key": "cultural_heritage",
+	"name": "Sociocultural History",
+	"prerequisites": [],
+	"tier": 0
+}, {
+	"area": "society",
+	"category": "Biology",
+	"description": "The challenges inherent in cultivating crops in zero-G are fairly unique, but far from insurmountable.",
+	"feature_unlocks": ["Unlocks Module: Orbital Hydroponic Farms"],
+	"is": [false, false, false, false],
+	"key": "orbital_hydroponics",
+	"name": "Orbital Hydroponics",
+	"prerequisites": ["eco_simulation"],
+	"tier": 1
+}, {
+	"area": "society",
+	"category": "Biology",
+	"description": "Hydroponics techniques can be further developed by creating farms with unique atmospheres, simulating different eco systems. This allows for the production of food with higher levels of nutrients.",
+	"feature_unlocks": ["Unlocks Building: Hydroponics Farm II", "Unlocks Edict: Farming Subsidies"],
+	"is": [false, false, false, false],
+	"key": "hydroponics",
+	"name": "Eco Simulation",
+	"prerequisites": ["eco_simulation"],
+	"tier": 1
+}, {
+	"area": "society",
+	"category": "Biology",
+	"description": "Studying the different forms of life that appear on our world helps us better understand ourselves and the life that surrounds us.",
+	"feature_unlocks": ["Unlocks Building: Biolab I"],
+	"is": [false, false, false, false],
+	"key": "biolab_1",
+	"name": "Biodiversity Studies",
+	"prerequisites": ["basic_science_lab_1"],
+	"tier": 1
+}, {
+	"area": "society",
+	"category": "Biology",
+	"description": "Studying the fauna of other worlds gives insight into alien behaviors, allowing us to identify and domesticate docile entities.",
+	"feature_unlocks": ["Unlocks Building: Xeno Zoo"],
+	"is": [false, false, false, false],
+	"key": "alien_life_studies",
+	"name": "Xenology",
+	"prerequisites": [],
+	"tier": 1
+}, {
+	"area": "society",
+	"category": "Biology",
+	"description": "The colonization of alien worlds has opened up an entirely new field of biomedical research.",
+	"feature_unlocks": ["Unlocks Building: Frontier Clinic"],
+	"is": [false, false, false, false],
+	"key": "frontier_health",
+	"name": "Frontier Health",
+	"prerequisites": ["genome_mapping", "colonization_1"],
+	"tier": 1
+}, {
+	"area": "society",
+	"category": "New Worlds",
+	"description": "With the advent of clean fusion, automation, and matter compression technologies, it was only a matter of time before mountain top removal became mountain range removal.",
+	"feature_unlocks": ["Clear Blockers: Mountain Range"],
+	"is": [false, false, false, false],
+	"key": "tb_mountain_range",
+	"name": "Planetary Resurfacing",
+	"prerequisites": ["colonization_1"],
+	"tier": 1
+}, {
+	"area": "society",
+	"category": "New Worlds",
+	"description": "Advances in material technology and deep-shaft mining techniques allow geo-engineering at previously unthinkable depths and temperatures. Magma hotspots can now be exploited, suppressed, or even relocated.",
+	"feature_unlocks": ["Clear Blockers: Active Volcano"],
+	"is": [false, false, false, false],
+	"key": "tb_volcano",
+	"name": "Deep Crust Engineering",
+	"prerequisites": ["colonization_1"],
+	"tier": 1
+}, {
+	"area": "society",
+	"category": "New Worlds",
+	"description": "Tactical disruption of natural habitats combined with converging search-and-destroy patterns can effectively eliminate hostile wildlife in a very short span of time.",
+	"feature_unlocks": ["Clear Blockers: Dangerous Wildlife"],
+	"is": [false, false, false, false],
+	"key": "tb_dangerous_wildlife",
+	"name": "Dangerous Wildlife Removal",
+	"prerequisites": ["colonization_1"],
+	"tier": 1
+}, {
+	"area": "society",
+	"category": "New Worlds",
+	"description": "Thorough cataloging, gene sequencing, and computer modeling of exobotanical ecosystems, coupled with gene editing and dispersal mechanisms, will allow us to reshape alien plant communities to our liking.",
+	"feature_unlocks": ["Clear Blockers: Dense Jungle"],
+	"is": [false, false, false, false],
+	"key": "tb_dense_jungle",
+	"name": "Selective Defoliants",
+	"prerequisites": ["colonization_1"],
+	"tier": 1
+}, {
+	"area": "society",
+	"category": "New Worlds",
+	"description": "The process of soil deposition normally takes millions of years. With advanced fracking, chemical engineering, and hydraulic management technologies even the poorest substrate can be turned into fertile topsoil.",
+	"feature_unlocks": ["Clear Blockers: Quicksand Basin"],
+	"is": [false, false, false, false],
+	"key": "tb_quicksand_basin",
+	"name": "Soil Remediation",
+	"prerequisites": ["colonization_1"],
+	"tier": 1
+}, {
+	"area": "society",
+	"category": "New Worlds",
+	"description": "Sentient races have been reclaiming swampland for thousands of years. A coordinated system of modular aquaducts, pump stations, chemical remediation crawlers and automated soil compactors can reclaim land at unprecedented speeds.",
+	"feature_unlocks": ["Clear Blockers: Noxious Swamp"],
+	"is": [false, false, false, false],
+	"key": "tb_noxious_swamp",
+	"name": "Xeno-Hydraulic Mastery",
+	"prerequisites": ["colonization_1"],
+	"tier": 1
+}, {
+	"area": "society",
+	"category": "New Worlds",
+	"description": "Orbital systems of mirrors and shades can effect dramatic changes in planetary climates, when managed properly.",
+	"feature_unlocks": ["Clear Blockers: Massive Glacier"],
+	"is": [false, false, false, false],
+	"key": "tb_massive_glacier",
+	"name": "Climate Control Network",
+	"prerequisites": ["colonization_1"],
+	"tier": 1
+}, {
+	"area": "society",
+	"category": "New Worlds",
+	"description": "Given enough processing power, networked sensors and distributed stations, even the ocean currents can be managed to a fine level of control.",
+	"feature_unlocks": ["Clear Blockers: Toxic Kelp"],
+	"is": [false, false, false, false],
+	"key": "tb_toxic_kelp",
+	"name": "Ocean Ecology Management",
+	"prerequisites": ["colonization_1"],
+	"tier": 1
+}, {
+	"area": "society",
+	"category": "New Worlds",
+	"description": "Many planets exhibit extensive subsurface voids. Subterranean exploration, exploitation, and construction techniques can greatly increase the habitable area of some worlds.",
+	"feature_unlocks": ["Clear Blockers: Deep Sinkhole"],
+	"is": [false, false, false, false],
+	"key": "tb_deep_sinkhole",
+	"name": "Subterranean Colonization",
+	"prerequisites": ["colonization_1"],
+	"tier": 1
+}, {
+	"area": "society",
+	"category": "New Worlds",
+	"description": "There is no simple solution to the problem of macro-scale reshaping of planetary crusts - only bigger trowels and orbitally-deployed drills.",
+	"feature_unlocks": ["Unlocks Feature: Terraforming", "Unlocks Feature: Terraforming", "Reveals Resource: Terraforming Gases ([[sr_terraform_gases]])", "Reveals Resource: Terraforming Liquids ([[sr_terraform_liquids]])"],
+	"is": [false, false, false, false],
+	"key": "terrestrial_sculpting",
+	"name": "Terrestrial Sculpting",
+	"prerequisites": ["colonization_1"],
+	"tier": 1
+}, {
+	"area": "society",
+	"category": "Biology",
+	"description": "Mapping the genome of an individual through the sequencing of their DNA opens up for tailored medical treatments and therapies.",
+	"feature_unlocks": ["Growth Time: -10%"],
+	"is": [false, false, false, false],
+	"key": "genome_mapping",
+	"name": "Genome Mapping",
+	"prerequisites": [],
+	"tier": 1
+}, {
+	"area": "society",
+	"category": "Military Theory",
+	"description": "Gradual adaptation to the realities of deep-space combat allows us to effectively coordinate larger maneuvers.",
+	"feature_unlocks": ["Naval Capacity: +10%"],
+	"is": [false, false, false, false],
+	"key": "doctrine_fleet_size_1",
+	"name": "Doctrine: Space Combat",
+	"prerequisites": [],
+	"tier": 1
+}, {
+	"area": "society",
+	"category": "Military Theory",
+	"description": "Gradual adaptation to the realities of deep-space combat allows us to effectively coordinate larger maneuvers.",
+	"feature_unlocks": ["Naval Capacity: +10%"],
+	"is": [false, false, false, false],
+	"key": "doctrine_fleet_size_2",
+	"name": "Doctrine: Reactive Formations",
+	"prerequisites": ["doctrine_fleet_size_1"],
+	"tier": 1
+}, {
+	"area": "society",
+	"category": "Military Theory",
+	"description": "A body of knowledge regarding combat behaviors is useless without a strong code governing its use.",
+	"feature_unlocks": ["Unlocks Edict: The Grand Fleet", "Unlocks Module: Fleet Academy"],
+	"is": [false, false, false, false],
+	"key": "interstellar_fleet_traditions",
+	"name": "Interstellar Fleet Traditions",
+	"prerequisites": ["doctrine_fleet_size_2"],
+	"tier": 1
+}, {
+	"area": "society",
+	"category": "Military Theory",
+	"description": "As extrasolar expeditions become more common, it is important to provide planetside relief for returning fleets.",
+	"feature_unlocks": ["Unlocks Module: Crew Quarters", "Unlocks Module: Engineering Bay"],
+	"is": [false, false, false, false],
+	"key": "doctrine_fleet_support",
+	"name": "Doctrine: Fleet Support",
+	"prerequisites": ["doctrine_fleet_size_1"],
+	"tier": 1
+}, {
+	"area": "society",
+	"category": "Military Theory",
+	"description": "Creating dedicated headquarters for all levels of military operations shapes an efficient fleet, and lays a better foundation for future military training.",
+	"feature_unlocks": ["Army Upkeep: -10%", "Unlocks Building: Military Academy"],
+	"is": [false, false, false, false],
+	"key": "centralized_command",
+	"name": "Centralized Command",
+	"prerequisites": [],
+	"tier": 1
+}, {
+	"area": "society",
+	"category": "Military Theory",
+	"description": "A more extensive training program for new recruits, including realistic combat scenarios, prepare them for the field.",
+	"feature_unlocks": ["Army Upkeep: -10%"],
+	"is": [false, false, false, false],
+	"key": "combat_training",
+	"name": "Combat Training",
+	"prerequisites": ["centralized_command"],
+	"tier": 1
+}, {
+	"area": "society",
+	"category": "Statecraft",
+	"description": "Reduces Cede Planet and Cede Frontier Outpost War Demand Cost.",
+	"feature_unlocks": ["Border Range: +20%", "Unlocks Component: Boosted Border Beacon"],
+	"is": [false, false, false, false],
+	"key": "galactic_ambitions",
+	"name": "Galactic Ambitions",
+	"prerequisites": [],
+	"tier": 1
+}, {
+	"area": "society",
+	"category": "Statecraft",
+	"description": "Ancient warring tribes, historical nations in conflict, now unified in empire. We must not, will not, crumble.",
+	"feature_unlocks": ["Monthly Influence: +1", "Unlocks Edict: Propaganda Broadcasts"],
+	"is": [false, false, false, false],
+	"key": "planetary_unification",
+	"name": "Planetary Unification",
+	"prerequisites": ["planetary_government"],
+	"tier": 1
+}, {
+	"area": "society",
+	"category": "New Worlds",
+	"description": "Robust frameworks for local governance created on a per-case basis, to meet each colony's needs.",
+	"feature_unlocks": ["Unlocks Building: Planetary Capital", "Unlocks Edict: Production Targets"],
+	"is": [false, false, false, false],
+	"key": "colonial_centralization",
+	"name": "Colonial Centralization",
+	"prerequisites": ["planetary_unification"],
+	"tier": 1
+}, {
+	"area": "society",
+	"category": "Statecraft",
+	"description": "The progress we make calls for a new, nimbler form of administration that may aid rather than hinder us in our pursuits.",
+	"feature_unlocks": ["Empire Leader Capacity: +2", "Leader Pool Size: +1", "Max Influence from Factions: +1"],
+	"is": [false, false, false, false],
+	"key": "adaptive_bureaucracy",
+	"name": "Adaptive Bureaucracy",
+	"prerequisites": ["planetary_unification"],
+	"tier": 1
+}, {
+	"area": "society",
+	"category": "Statecraft",
+	"description": "Local administrative developments allow for closer supervision of colonial affairs without excessively burdening central decision-making.",
+	"feature_unlocks": ["Core Sector Systems: +1"],
+	"is": [false, false, false, false],
+	"key": "colonial_bureaucracy",
+	"name": "Colonial Bureaucracy",
+	"prerequisites": ["adaptive_bureaucracy"],
+	"tier": 1
+}, {
+	"area": "society",
+	"category": "Statecraft",
+	"description": "Cognition is little but the processing of sensory input. It can be altered.",
+	"feature_unlocks": ["Unlocks Army: Slave Army", "Unlocks Building: Slave Processing Facility"],
+	"is": [false, false, false, false],
+	"key": "neural_implants",
+	"name": "Neural Implants",
+	"prerequisites": [],
+	"tier": 1
+}, {
+	"area": "society",
+	"category": "Statecraft",
+	"description": "Physical reminders of how far we have come both instill a reverence for past achievements and bolster ambitions for the future.",
+	"feature_unlocks": ["Unlocks Building: Heritage Site"],
+	"is": [false, false, false, false],
+	"key": "heritage_site",
+	"name": "Heritage Sites",
+	"prerequisites": ["cultural_heritage"],
+	"tier": 1
+}, {
+	"area": "society",
+	"category": "Statecraft",
+	"description": "As we explore more of the galaxy and its wonders, it becomes increasingly important for us to reaffirm our beliefs and to unify our people under one symbol.",
+	"feature_unlocks": ["Unlocks Building: Symbol of Unity"],
+	"is": [false, true, false, false],
+	"key": "symbol_unity",
+	"name": "Symbols of Unity",
+	"prerequisites": ["planetary_government"],
+	"tier": 1
+}, {
+	"area": "society",
+	"category": "Biology",
+	"description": "A naturally occurring stimulant that helps all forms of life adapt and evolve. It can also be used as a very potent conductor for energy weapons.",
+	"feature_unlocks": ["Reveals Resource: Engos Vapor ([[sr_engos]])"],
+	"is": [false, false, false, false],
+	"key": "engos_vapor",
+	"name": "Engos Vapor Refining",
+	"prerequisites": ["genome_mapping"],
+	"tier": 1
+}, {
+	"area": "society",
+	"category": "Biology",
+	"description": "This fine dust is a naturally occurring stimulant found on some worlds. It has a calming effect on most beings, and can be used as a non-violent way of pacifying hostile individuals.",
+	"feature_unlocks": ["Reveals Resource: Pitharan Dust ([[sr_pitharan]])"],
+	"is": [false, false, false, false],
+	"key": "pitharan_dust",
+	"name": "Pitharan Dust Refining",
+	"prerequisites": ["genome_mapping"],
+	"tier": 1
+}, {
+	"area": "society",
+	"category": "Biology",
+	"description": "Sophisticated genetic engineering of crops helps increase yield and further improves both taste and nutrient levels.",
+	"feature_unlocks": ["Unlocks Building: Hydroponics Farm III"],
+	"is": [false, false, false, false],
+	"key": "gene_crops",
+	"name": "Gene Crops",
+	"prerequisites": ["hydroponics", "colonial_centralization"],
+	"tier": 2
+}, {
+	"area": "society",
+	"category": "Biology",
+	"description": "Infusing crop strands with small amounts of nano-machines help create a type of produce that is ultra resilient, and the chemical composition of which can be tailored and altered during its entire lifetime.",
+	"feature_unlocks": ["Unlocks Building: Hydroponics Farm IV", "Unlocks Building: Hydroponics Farm V"],
+	"is": [false, false, false, false],
+	"key": "nano_vitality_crops",
+	"name": "Nano-Vitality Crops",
+	"prerequisites": ["gene_crops", "galactic_administration"],
+	"tier": 2
+}, {
+	"area": "society",
+	"category": "Biology",
+	"description": "Studying the life that arises on other worlds and beyond allows us to understand fundamental aspects of biology that were previously beyond our reach.",
+	"feature_unlocks": ["Unlocks Building: Biolab II"],
+	"is": [false, false, false, false],
+	"key": "biolab_2",
+	"name": "Xenobiology",
+	"prerequisites": ["biolab_1", "colonial_centralization"],
+	"tier": 2
+}, {
+	"area": "society",
+	"category": "New Worlds",
+	"description": "By adjusting atmospheric filtering on a per-site basis to better filter out undesirable elements, colonial living conditions may be improved.",
+	"feature_unlocks": ["Habitability: +5%"],
+	"is": [false, false, false, false],
+	"key": "colonization_2",
+	"name": "Atmospheric Filtering",
+	"prerequisites": ["colonization_1"],
+	"tier": 2
+}, {
+	"area": "society",
+	"category": "New Worlds",
+	"description": "Further study into the hazardous environments found on other planets help alleviate the difficulties that colonizers encounter in their day-to-day lives on foreign worlds.",
+	"feature_unlocks": ["Habitability: +5%"],
+	"is": [false, false, false, false],
+	"key": "colonization_3",
+	"name": "Hostile Environment Adaption",
+	"prerequisites": ["colonization_2"],
+	"tier": 2
+}, {
+	"area": "society",
+	"category": "New Worlds",
+	"description": "Through comprehensive study of irradiated environments we will allow our settlers to colonize worlds that have been devastated by nuclear warfare.",
+	"feature_unlocks": ["Tomb World Habitability: +20%"],
+	"is": [false, true, false, false],
+	"key": "tomb_world_adaption",
+	"name": "Tomb World Adaption",
+	"prerequisites": ["colonization_2"],
+	"tier": 2
+}, {
+	"area": "society",
+	"category": "Biology",
+	"description": "As a colony grows, so does its medical needs. Larger colonies are potentially exposed to more dangerous pathogens on alien worlds.",
+	"feature_unlocks": ["Unlocks Building: Frontier Hospital"],
+	"is": [false, false, false, false],
+	"key": "frontier_hospital",
+	"name": "Frontier Hospital",
+	"prerequisites": ["frontier_health"],
+	"tier": 2
+}, {
+	"area": "society",
+	"category": "New Worlds",
+	"description": "Humidity regulators and chemical dispersal units are the first step towards a fundamentally altered atmosphere.",
+	"feature_unlocks": ["Unlocks Feature: Atmospheric Manipulation"],
+	"is": [false, false, false, false],
+	"key": "atmospheric_manipulation",
+	"name": "Atmospheric Manipulation",
+	"prerequisites": ["terrestrial_sculpting"],
+	"tier": 2
+}, {
+	"area": "society",
+	"category": "Biology",
+	"description": "",
+	"feature_unlocks": ["Leader Lifespan: +10"],
+	"is": [false, false, false, false],
+	"key": "vitality_boosters",
+	"name": "Vitality Boosters",
+	"prerequisites": ["genome_mapping"],
+	"tier": 2
+}, {
+	"area": "society",
+	"category": "Biology",
+	"description": "Advanced DNA methylation techniques allow for functionally significant alterations to be made to arbitrary genomes.",
+	"feature_unlocks": ["Unlocks Feature: Uplift", "Unlocks Feature: Uplift"],
+	"is": [false, false, false, false],
+	"key": "epigenetic_triggers",
+	"name": "Epigenetic Triggers",
+	"prerequisites": ["genome_mapping"],
+	"tier": 2
+}, {
+	"area": "society",
+	"category": "Biology",
+	"description": "Breakthroughs in enucleation and artificial womb technology allows for the mass-production of individuals based on a common genetic template.",
+	"feature_unlocks": ["Unlocks Army: Clone Army", "Unlocks Building: Clone Vats"],
+	"is": [false, false, false, false],
+	"key": "cloning",
+	"name": "Cloning",
+	"prerequisites": ["vitality_boosters"],
+	"tier": 2
+}, {
+	"area": "society",
+	"category": "Biology",
+	"description": "Gene Banks filter and curate available genomes for deployment in clones.",
+	"feature_unlocks": ["Unlocks Attachment: Clone Commandos"],
+	"is": [false, true, false, false],
+	"key": "gene_banks",
+	"name": "Gene Banks",
+	"prerequisites": ["cloning"],
+	"tier": 2
+}, {
+	"area": "society",
+	"category": "Biology",
+	"description": "From its cradle as a purely pharmaceutical venture, advancements in our understanding of the morphogenetic field allow for direct, subconscious interfaces with organic units.",
+	"feature_unlocks": ["Unlocks Army: Xenomorph Army", "Unlocks Attachment: Xeno Cavalry"],
+	"is": [false, true, false, false],
+	"key": "morphogenetic_field_mastery",
+	"name": "Morphogenetic Field Mastery",
+	"prerequisites": ["epigenetic_triggers"],
+	"tier": 2
+}, {
+	"area": "society",
+	"category": "Biology",
+	"description": "Making gene-editing tools widely available is sure to have a positive impact on our development as a species.",
+	"feature_unlocks": ["Trait Points: +1", "Unlocks Feature: Genetic Modification", "Unlocks Feature: Environmental Adaptation", "Unlocks Feature: Genetic Modification", "Unlocks Feature: Environmental Adaptation"],
+	"is": [false, false, false, false],
+	"key": "gene_tailoring",
+	"name": "Gene Tailoring",
+	"prerequisites": ["cloning"],
+	"tier": 2
+}, {
+	"area": "society",
+	"category": "Biology",
+	"description": "Careful reproductive planning should be incentivized, lest we waste valuable genetic legacies.",
+	"feature_unlocks": ["Unlocks Policy: Leader Enhancement - Selected Lineages"],
+	"is": [false, true, false, false],
+	"key": "selected_lineages",
+	"name": "Selected Lineages",
+	"prerequisites": ["vitality_boosters"],
+	"tier": 2
+}, {
+	"area": "society",
+	"category": "Military Theory",
+	"description": "Gradual adaptation to the realities of deep-space combat allows us to effectively coordinate larger maneuvers.",
+	"feature_unlocks": ["Naval Capacity: +10%"],
+	"is": [false, false, false, false],
+	"key": "doctrine_fleet_size_3",
+	"name": "Doctrine: Interstellar Warfare",
+	"prerequisites": ["doctrine_fleet_size_2"],
+	"tier": 2
+}, {
+	"area": "society",
+	"category": "Military Theory",
+	"description": "Gradual adaptation to the realities of deep-space combat allows us to effectively coordinate larger maneuvers.",
+	"feature_unlocks": ["Naval Capacity: +10%"],
+	"is": [false, false, false, false],
+	"key": "doctrine_fleet_size_4",
+	"name": "Doctrine: Fluid Fleet Templates",
+	"prerequisites": ["doctrine_fleet_size_3"],
+	"tier": 2
+}, {
+	"area": "society",
+	"category": "Military Theory",
+	"description": "Restructuring the chain of command and deciding what interdependencies are set between officers, make fleets more responsive and thus cost-effective.",
+	"feature_unlocks": ["Ship Upkeep: -5%"],
+	"is": [false, false, false, false],
+	"key": "doctrine_command_matrix",
+	"name": "Doctrine: Command Matrix",
+	"prerequisites": ["doctrine_fleet_size_3"],
+	"tier": 2
+}, {
+	"area": "society",
+	"category": "Military Theory",
+	"description": "Standardizing workflows for upgrading and retrofitting ship components can lead to massive efficiency gains.",
+	"feature_unlocks": ["Ship Upgrade Cost: -15%"],
+	"is": [false, false, false, false],
+	"key": "doctrine_refit_standards",
+	"name": "Doctrine: Refit Standards",
+	"prerequisites": ["doctrine_fleet_size_2"],
+	"tier": 2
+}, {
+	"area": "society",
+	"category": "Psionics",
+	"description": "The mind is in many ways a reflection of the universe itself, a microcosmos. All species may not reach this insight, but their minds are tools greater than any other.",
+	"feature_unlocks": ["Unlocks Attachment: PSI Warriors"],
+	"is": [false, true, false, false],
+	"key": "psionic_theory",
+	"name": "Psionic Theory",
+	"prerequisites": [],
+	"tier": 2
+}, {
+	"area": "society",
+	"category": "Statecraft",
+	"description": "A well-oiled war machine is the key to exerting influence on a galactic scale. Backed by the might of our military, we can lay claim to almost anything we want.",
+	"feature_unlocks": ["Unlocks Feature: Cheaper War Demands", "Unlocks Feature: Cheaper War Demands"],
+	"is": [false, false, false, false],
+	"key": "interstellar_campaigns",
+	"name": "Interstellar Campaigns",
+	"prerequisites": ["galactic_ambitions"],
+	"tier": 2
+}, {
+	"area": "society",
+	"category": "Statecraft",
+	"description": "The administrative needs of a star empire are as numerous as they are complex. We will rise to the occasion.",
+	"feature_unlocks": ["Civic Slots: +1", "Unlocks Building: Empire Capital-Complex"],
+	"is": [false, false, false, false],
+	"key": "galactic_administration",
+	"name": "Galactic Administration",
+	"prerequisites": ["colonial_centralization"],
+	"tier": 2
+}, {
+	"area": "society",
+	"category": "Statecraft",
+	"description": "The administrative needs of a star empire are as numerous as they are complex. We will rise to the occasion.",
+	"feature_unlocks": ["Unlocks Building: Galactic Stock Exchange"],
+	"is": [false, true, false, false],
+	"key": "galactic_markets",
+	"name": "Galactic Markets",
+	"prerequisites": ["galactic_administration"],
+	"tier": 2
+}, {
+	"area": "society",
+	"category": "Statecraft",
+	"description": "Deep-tissue implants are the latest innovation in the revolutionary overlapping of sensory engineering and entertainment experiences. \"Where we're going, we won't need skin to feel!\"",
+	"feature_unlocks": ["Unlocks Feature: Chemical Bliss", "Unlocks Feature: Chemical Bliss"],
+	"is": [false, true, false, false],
+	"key": "subdermal_stimulation",
+	"name": "Subdermal Stimulation",
+	"prerequisites": [],
+	"tier": 2
+}, {
+	"area": "society",
+	"category": "Statecraft",
+	"description": "Our people are united and strong, and their rulers benevolent. Sometimes the populace needs to be reminded of this fact.",
+	"feature_unlocks": ["Unlocks Building: Ministry of Benevolence"],
+	"is": [false, true, false, false],
+	"key": "galactic_benevolence",
+	"name": "Galactic Benevolence",
+	"prerequisites": ["galactic_administration"],
+	"tier": 2
+}, {
+	"area": "society",
+	"category": "Statecraft",
+	"description": "Multiple administrative strata efficiently surface only the most vital information to the upper levels of government.",
+	"feature_unlocks": ["Core Sector Systems: +1"],
+	"is": [false, false, false, false],
+	"key": "galactic_bureaucracy",
+	"name": "Galactic Bureaucracy",
+	"prerequisites": ["colonial_bureaucracy"],
+	"tier": 2
+}, {
+	"area": "society",
+	"category": "Statecraft",
+	"description": "The Empire lives, the Empire breathes. We may make up its body, but it is not for the left hand to know what the right hand is doing.",
+	"feature_unlocks": ["Empire Leader Capacity: +2", "Leader Recruitment Cost: -20%", "Max Influence from Factions: +1"],
+	"is": [false, false, false, false],
+	"key": "living_state",
+	"name": "The Living State",
+	"prerequisites": ["colonial_centralization"],
+	"tier": 2
+}, {
+	"area": "society",
+	"category": "Statecraft",
+	"description": "It is circumstance that dictates what is moral. Define the circumstances, and ethics is like clay in your hands.",
+	"feature_unlocks": ["Resettlement Cost: -10%", "Unlocks Edict: Share the Burden"],
+	"is": [false, false, false, false],
+	"key": "artificial_moral_codes",
+	"name": "Artificial Moral Codes",
+	"prerequisites": [],
+	"tier": 2
+}, {
+	"area": "society",
+	"category": "Statecraft",
+	"description": "Thinking outside the box merely places you in another, somewhat larger box.",
+	"feature_unlocks": ["Edict Cost: -15%", "Resettlement Cost: -10%"],
+	"is": [false, false, false, false],
+	"key": "synthetic_thought_patterns",
+	"name": "Synthetic Thought Patterns",
+	"prerequisites": ["artificial_moral_codes"],
+	"tier": 2
+}, {
+	"area": "society",
+	"category": "Statecraft",
+	"description": "Not all research into faster-than-light communication channels produces useful results, but some outcomes may find new purpose in bringing our people together.",
+	"feature_unlocks": ["Unlocks Building: Hypercomms Forum"],
+	"is": [false, false, false, false],
+	"key": "hypercomms_forum",
+	"name": "Local Hypercommunication",
+	"prerequisites": ["heritage_site", "colonial_centralization"],
+	"tier": 2
+}, {
+	"area": "society",
+	"category": "Statecraft",
+	"description": "Continuous, asynchronous analysis of disparate data sets allows for the accurate modeling of hitherto-unpredictable fluctuations in social currents.",
+	"feature_unlocks": ["Unlocks Building: Auto-Curating Vault"],
+	"is": [false, false, false, false],
+	"key": "autocurating_vault",
+	"name": "Automated Curation Algorithms",
+	"prerequisites": ["hypercomms_forum", "administrative_ai", "galactic_administration"],
+	"tier": 2
+}, {
+	"area": "society",
+	"category": "Statecraft",
+	"description": "Seeing is believing, and belief begets reality.",
+	"feature_unlocks": ["Unlocks Building: Holotemple"],
+	"is": [false, false, false, false],
+	"key": "holographic_rituals",
+	"name": "Holographic Rituals",
+	"prerequisites": ["cultural_heritage", "colonial_centralization"],
+	"tier": 2
+}, {
+	"area": "society",
+	"category": "Statecraft",
+	"description": "Leaving our planetary cradle has opened us up to a new understanding of faith, and its place in a wider context.",
+	"feature_unlocks": ["Unlocks Building: Citadel of Faith"],
+	"is": [false, false, false, false],
+	"key": "transcendent_faith",
+	"name": "Metacognitive Faith",
+	"prerequisites": ["holographic_rituals", "galactic_administration"],
+	"tier": 2
+}, {
+	"area": "society",
+	"category": "Statecraft",
+	"description": "A set of social protocols based on paradoxical intuition, and on love. When we know the System of the Loop, we learn that we can influence by receiving instructions, as well as giving them.",
+	"feature_unlocks": ["Omega Theory"],
+	"is": [false, true, false, false],
+	"key": "akx_worm_2",
+	"name": "Doctrine: Strange Loop",
+	"prerequisites": [],
+	"tier": 3
+}, {
+	"area": "society",
+	"category": "Biology",
+	"description": "Transgenic crops offer the nutritional elements of several standard food crops in one convenient package.",
+	"feature_unlocks": ["Food: +5%"],
+	"is": [false, false, true, false],
+	"key": "improved_tile_food_output",
+	"name": "Transgenic Crops",
+	"prerequisites": ["gene_crops"],
+	"tier": 3
+}, {
+	"area": "society",
+	"category": "Statecraft",
+	"description": "Improved FTL communication channels allow for more coherent administrative direction.",
+	"feature_unlocks": ["Sector Limit: +1"],
+	"is": [false, false, true, false],
+	"key": "improved_sector_cap",
+	"name": "Communication Protocols",
+	"prerequisites": ["adaptive_bureaucracy"],
+	"tier": 3
+}, {
+	"area": "society",
+	"category": "Statecraft",
+	"description": "Restructuring the managerial web linking core worlds to the capital can help alleviate the administrative stressors and information chokepoints that frequently arise within a budding empire.",
+	"feature_unlocks": ["Core Sector Systems: +1"],
+	"is": [false, false, true, false],
+	"key": "improved_core_system_cap",
+	"name": "Administrative Efficiency",
+	"prerequisites": ["galactic_bureaucracy"],
+	"tier": 3
+}, {
+	"area": "society",
+	"category": "Statecraft",
+	"description": "The concept of managing individuals as resources within larger systems of production must, by necessity, become more flexible as the potential natures of the managed individuals grow ever more numerous.",
+	"feature_unlocks": ["Empire Leader Capacity: +1"],
+	"is": [false, false, true, false],
+	"key": "improved_leader_cap",
+	"name": "Sentient Resource Management",
+	"prerequisites": ["adaptive_bureaucracy"],
+	"tier": 3
+}, {
+	"area": "society",
+	"category": "Statecraft",
+	"description": "Propaganda programs and subtle manipulation of economic records drive down the cost of employing top-tier Leaders.",
+	"feature_unlocks": ["Leader Recruitment Cost: -5%"],
+	"is": [false, false, true, false],
+	"key": "reduced_leader_cost",
+	"name": "Talent Acquisition",
+	"prerequisites": ["adaptive_bureaucracy"],
+	"tier": 3
+}, {
+	"area": "society",
+	"category": "Statecraft",
+	"description": "More aggressive information campaigns improve the populace's receptiveness to Edicts.",
+	"feature_unlocks": ["Edict Duration: +10%"],
+	"is": [false, false, true, false],
+	"key": "improved_edict_length",
+	"name": "Proclamation Broadcasts",
+	"prerequisites": ["artificial_moral_codes"],
+	"tier": 3
+}, {
+	"area": "society",
+	"category": "Military Theory",
+	"description": "Iterating on the standard conditioning regimen for ground troops has proven to make them more effective in direct combat.",
+	"feature_unlocks": ["Army Damage: +10%"],
+	"is": [false, false, true, false],
+	"key": "improved_army_damage",
+	"name": "Aggressive Conditioning",
+	"prerequisites": ["combat_training"],
+	"tier": 3
+}, {
+	"area": "society",
+	"category": "Military Theory",
+	"description": "Careful tuning of pain receptors allow soldiers to fight through what would previously have been debilitating injuries.",
+	"feature_unlocks": ["Army Health: +10%"],
+	"is": [false, false, true, false],
+	"key": "improved_army_health",
+	"name": "Nerve Dampeners",
+	"prerequisites": ["combat_training"],
+	"tier": 3
+}, {
+	"area": "society",
+	"category": "Biology",
+	"description": "Regimens of periodic cell revitalization treatments keep the leader class spry and active beyond traditionally expected lifespans.",
+	"feature_unlocks": ["Leader Lifespan: +5"],
+	"is": [false, false, true, false],
+	"key": "improved_leader_life_span",
+	"name": "Cell Revitalization",
+	"prerequisites": ["vitality_boosters"],
+	"tier": 3
+}, {
+	"area": "society",
+	"category": "Biology",
+	"description": "Chemically optimizing diets for indentured workers allow them to perform above projected productivity curves.",
+	"feature_unlocks": ["Slave Mineral Output: +5%", "Slave Food Output: +5%"],
+	"is": [false, false, true, false],
+	"key": "improved_slave_mineral_output",
+	"name": "Stimulant Diet",
+	"prerequisites": ["neural_implants"],
+	"tier": 3
+}, {
+	"area": "society",
+	"category": "Biology",
+	"description": "The process of synthetically replicating crops requires a lot of collected waste to create a small amount of produce, but nevertheless provides a significant boost to agricultural output.",
+	"feature_unlocks": ["Food: +15%"],
+	"is": [false, false, false, false],
+	"key": "nutrient_replication",
+	"name": "Nutrient Replication",
+	"prerequisites": ["nano_vitality_crops"],
+	"tier": 3
+}, {
+	"area": "society",
+	"category": "Biology",
+	"description": "Having the opportunity to study the multitudes of life lets us find some common ground for all living beings. The foundational building blocks of life.",
+	"feature_unlocks": ["Unlocks Building: Biolab III", "Unlocks Building: Biolab IV"],
+	"is": [false, false, false, false],
+	"key": "biolab_3",
+	"name": "Secrets of Life",
+	"prerequisites": ["biolab_2", "galactic_administration"],
+	"tier": 3
+}, {
+	"area": "society",
+	"category": "New Worlds",
+	"description": "Extensive study into different soil types and their ability to support crops will help improve the living conditions of our settlers on foreign worlds.",
+	"feature_unlocks": ["Habitability: +5%"],
+	"is": [false, false, false, false],
+	"key": "colonization_4",
+	"name": "Foreign Soil Enrichment",
+	"prerequisites": ["colonization_3"],
+	"tier": 3
+}, {
+	"area": "society",
+	"category": "New Worlds",
+	"description": "Additonal study into different planetary climates will allow us to settle our population on worlds previously thought too hostile to support them.",
+	"feature_unlocks": ["Habitability: +5%"],
+	"is": [false, false, false, false],
+	"key": "colonization_5",
+	"name": "Hostile Climate Adaption",
+	"prerequisites": ["colonization_4"],
+	"tier": 3
+}, {
+	"area": "society",
+	"category": "New Worlds",
+	"description": "By advancing our understanding of atmopsheric manipulation, we will be able to terraform even the most ecologically devastated worlds.",
+	"feature_unlocks": ["Unlocks Feature: Climate Restoration"],
+	"is": [false, false, false, false],
+	"key": "climate_restoration",
+	"name": "Climate Restoration",
+	"prerequisites": ["atmospheric_manipulation"],
+	"tier": 3
+}, {
+	"area": "society",
+	"category": "New Worlds",
+	"description": "The creation of Gaia planets, worlds eminently suitable to almost all forms of life, is the ultimate proof of a species' mastery in the art of terraforming.",
+	"feature_unlocks": ["Unlocks Feature: Gaia Creation"],
+	"is": [false, true, false, false],
+	"key": "gaia_creation",
+	"name": "Gaia Creation",
+	"prerequisites": ["climate_restoration"],
+	"tier": 3
+}, {
+	"area": "society",
+	"category": "Biology",
+	"description": "Nucleotide purification techniques allow for the isolation and refinement of particularly desirable genetic traits.",
+	"feature_unlocks": ["Unlocks Army: Gene Warrior Army"],
+	"is": [false, true, false, false],
+	"key": "gene_seed_purification",
+	"name": "Gene Seed Purification",
+	"prerequisites": ["gene_tailoring"],
+	"tier": 3
+}, {
+	"area": "society",
+	"category": "Biology",
+	"description": "Stricter control of RNA and protein production on the cellular level.",
+	"feature_unlocks": ["Trait Points: +1"],
+	"is": [false, true, false, false],
+	"key": "gene_expressions",
+	"name": "Targeted Gene Expressions",
+	"prerequisites": ["gene_tailoring"],
+	"tier": 3
+}, {
+	"area": "society",
+	"category": "Biology",
+	"description": "We leave nothing to chance, no matter the cost. Through exacting curation of DNA banks do we build the leaders of tomorrow.",
+	"feature_unlocks": ["Unlocks Policy: Leader Enhancement - Capacity Boosters"],
+	"is": [false, true, false, false],
+	"key": "capacity_boosters",
+	"name": "Capacity Boosters",
+	"prerequisites": ["selected_lineages"],
+	"tier": 3
+}, {
+	"area": "society",
+	"category": "Military Theory",
+	"description": "Gradual adaptation to the realities of deep-space combat allows us to effectively coordinate larger maneuvers.",
+	"feature_unlocks": ["Naval Capacity: +10%"],
+	"is": [false, false, false, false],
+	"key": "doctrine_fleet_size_5",
+	"name": "Doctrine: Armada Battle Formation",
+	"prerequisites": ["doctrine_fleet_size_4"],
+	"tier": 3
+}, {
+	"area": "society",
+	"category": "Psionics",
+	"description": "Once fully adapted to the basics of Psionics, the mind is capable of connecting to other individuals, becoming something greater.",
+	"feature_unlocks": ["Unlocks Army: Psionic Army"],
+	"is": [false, true, false, false],
+	"key": "telepathy",
+	"name": "Telepathy",
+	"prerequisites": ["psionic_theory"],
+	"tier": 3
+}, {
+	"area": "society",
+	"category": "Psionics",
+	"description": "Advances in the field of Psionics suggest the possibility of creating combat computers capable of reading and analysing the impulses of telepathic operatives before they are cognitively processed.",
+	"feature_unlocks": ["Unlocks Component: Precognitive Interface"],
+	"is": [false, true, false, false],
+	"key": "precognition_interface",
+	"name": "Precognition Interface",
+	"prerequisites": ["telepathy"],
+	"tier": 3
+}, {
+	"area": "society",
+	"category": "Psionics",
+	"description": "The Psi Jump Drive harnesses the psi energies emitted by the crew to force the vessel through the very fabric of reality, instantly \"jumping\" vast distances.",
+	"feature_unlocks": ["Unlocks Component: Psi Jump Drive"],
+	"is": [true, true, false, false],
+	"key": "psi_jump_drive_1",
+	"name": "Psi Jump Drive",
+	"prerequisites": ["precognition_interface"],
+	"tier": 3
+}, {
+	"area": "society",
+	"category": "Statecraft",
+	"description": "Further improvements to administration grant an extended power projection across the stars, and the military clout needed to enforce our demands.",
+	"feature_unlocks": ["Unlocks Feature: Cheaper War Demands", "Unlocks Feature: Cheaper War Demands"],
+	"is": [false, false, false, false],
+	"key": "galactic_campaigns",
+	"name": "Galactic Campaigns",
+	"prerequisites": ["interstellar_campaigns"],
+	"tier": 3
+}, {
+	"area": "society",
+	"category": "Statecraft",
+	"description": "Finding aspects of the self within the group is natural and inevitable; eventually those shared aspects must be valued higher than individual identities.",
+	"feature_unlocks": ["Empire Leader Capacity: +2", "Leader Recruitment Cost: -20%", "Max Influence from Factions: +1"],
+	"is": [false, false, false, false],
+	"key": "collective_self",
+	"name": "The Collective Self",
+	"prerequisites": ["living_state"],
+	"tier": 3
+}, {
+	"area": "society",
+	"category": "Statecraft",
+	"description": "As power is simply the ability to impose one's will on others, the will to power is a self-fulfilling prophecy.",
+	"feature_unlocks": ["Unlocks Attachment: Commissar Squads", "Unlocks Module: Orbital Mind Control Laser"],
+	"is": [false, true, false, false],
+	"key": "will_to_power",
+	"name": "Will to Power",
+	"prerequisites": ["synthetic_thought_patterns"],
+	"tier": 3
+}, {
+	"area": "engineering",
+	"category": "Voidcraft",
+	"description": "The spaceport is a planet's foothold in space, a center for trade and commerce as well as home base for military and civilian vessels.",
+	"feature_unlocks": ["Unlocks Ship Type: Science Ship", "Unlocks Ship Type: Corvette", "Unlocks Station: Spaceport"],
+	"is": [false, false, false, true],
+	"key": "spaceport_1",
+	"name": "Spaceport",
+	"prerequisites": [],
+	"tier": 0
+}, {
+	"area": "engineering",
+	"category": "Voidcraft",
+	"description": "The invasion of another world is a staggering enterprise. There are immense logistical challenges that must be overcome before we can muster our first interplanetary armies.",
+	"feature_unlocks": ["Unlocks Army: Assault Army"],
+	"is": [false, false, false, true],
+	"key": "assault_armies",
+	"name": "Interplanetary Expeditionary Forces",
+	"prerequisites": ["defense_army"],
+	"tier": 0
+}, {
+	"area": "engineering",
+	"category": "Rocketry",
+	"description": "Simple yet moderately effective chemical thrusters that rely on combustible propellant to function.",
+	"feature_unlocks": ["Unlocks Component: Chemical Thruster"],
+	"is": [false, false, false, true],
+	"key": "thrusters_1",
+	"name": "Chemical Thrusters",
+	"prerequisites": [],
+	"tier": 0
+}, {
+	"area": "engineering",
+	"category": "Voidcraft",
+	"description": "This will enable the construction of defensive deep space platforms far from the gravity wells of a planetary body.",
+	"feature_unlocks": [],
+	"is": [false, false, false, true],
+	"key": "space_defense_station_1",
+	"name": "Deep Space Outposts",
+	"prerequisites": ["space_construction"],
+	"tier": 0
+}, {
+	"area": "engineering",
+	"category": "Industry",
+	"description": "The basic industrial infrastructure that is required to become a spacefaring civilization.",
+	"feature_unlocks": ["Unlocks Building: Mining Network I"],
+	"is": [false, false, false, true],
+	"key": "basic_industry",
+	"name": "Industrial Base",
+	"prerequisites": [],
+	"tier": 0
+}, {
+	"area": "engineering",
+	"category": "Industry",
+	"description": "Construction in space presents our engineers with new design challenges that must be solved before we can build orbital stations above other worlds.",
+	"feature_unlocks": ["Unlocks Ship Type: Construction Ship", "Unlocks Station: Mining Station", "Unlocks Station: Research Station"],
+	"is": [false, false, false, true],
+	"key": "space_construction",
+	"name": "Offworld Construction",
+	"prerequisites": [],
+	"tier": 0
+}, {
+	"area": "engineering",
+	"category": "Voidcraft",
+	"description": "Enhancements to artificial gravity and life support systems allow for further expansion of orbital facilities.",
+	"feature_unlocks": ["Mineral Storage Capacity: +2000", "Unlocks Feature: Spaceport Level II", "Unlocks Feature: Spaceport Level II", "Unlocks Module: Corvette Assembly Yards"],
+	"is": [false, false, false, false],
+	"key": "spaceport_2",
+	"name": "Improved Spaceport",
+	"prerequisites": ["space_construction"],
+	"tier": 1
+}, {
+	"area": "engineering",
+	"category": "Voidcraft",
+	"description": "Expanded dry-docks allow for the construction of Destroyer-class military vessels.",
+	"feature_unlocks": ["Mineral Storage Capacity: +2000", "Unlocks Ship Type: Destroyer", "Unlocks Feature: Spaceport Level III"],
+	"is": [false, false, false, false],
+	"key": "spaceport_3",
+	"name": "Destroyers",
+	"prerequisites": ["spaceport_2"],
+	"tier": 1
+}, {
+	"area": "engineering",
+	"category": "Materials",
+	"description": "Reinforced nanocomposite hull plating can provide an extra layer of protection that could be the difference between life and death in a combat situation.",
+	"feature_unlocks": ["Unlocks Component: Small Nanocomposite Armor", "Unlocks Component: Medium Nanocomposite Armor", "Unlocks Component: Large Nanocomposite Armor"],
+	"is": [false, false, false, false],
+	"key": "ship_armor_1",
+	"name": "Nanocomposite Materials",
+	"prerequisites": ["spaceport_1"],
+	"tier": 1
+}, {
+	"area": "engineering",
+	"category": "Materials",
+	"description": "A combination of different metals and ceramics that result in a strong armor without sacrificing flexibility.",
+	"feature_unlocks": ["Unlocks Component: Small Ceramo-Metal Armor", "Unlocks Component: Medium Ceramo-Metal Armor", "Unlocks Component: Large Ceramo-Metal Armor"],
+	"is": [false, false, false, false],
+	"key": "ship_armor_2",
+	"name": "Ceramo-Metal Materials",
+	"prerequisites": ["ship_armor_1"],
+	"tier": 1
+}, {
+	"area": "engineering",
+	"category": "Materials",
+	"description": "By infusing armor plating with Crystalline matter we are able to further increase the durability of our ships' protective hulls.",
+	"feature_unlocks": ["Unlocks Component: Crystal-Infused Plating"],
+	"is": [false, false, false, false],
+	"key": "crystal_armor_1",
+	"name": "Crystal-Infused Plating",
+	"prerequisites": [],
+	"tier": 1
+}, {
+	"area": "engineering",
+	"category": "Rocketry",
+	"description": "These electric thrusters use beams of ions to generate thrust without the need for propellant.",
+	"feature_unlocks": ["Unlocks Component: Ion Thruster"],
+	"is": [false, false, false, false],
+	"key": "thrusters_2",
+	"name": "Ion Thrusters",
+	"prerequisites": ["thrusters_1"],
+	"tier": 1
+}, {
+	"area": "engineering",
+	"category": "Industry",
+	"description": "Wearing a powered exoskeleton suit augments the user's strength and speed. The military applications are obvious, but it will also increase labor efficiency.",
+	"feature_unlocks": ["Army Damage: +5%", "Minerals: +5%"],
+	"is": [false, false, false, false],
+	"key": "powered_exoskeletons",
+	"name": "Powered Exoskeletons",
+	"prerequisites": ["basic_industry"],
+	"tier": 1
+}, {
+	"area": "engineering",
+	"category": "Industry",
+	"description": "New fracking techniques will allow us to tap into previously unattainable pockets of geothermal resources deep beneath the planet's crust.",
+	"feature_unlocks": ["Mineral Storage Capacity: +1000", "Unlocks Building: Mining Network II"],
+	"is": [false, false, false, false],
+	"key": "mining_network_2",
+	"name": "Geothermal Fracking",
+	"prerequisites": ["basic_industry"],
+	"tier": 1
+}, {
+	"area": "engineering",
+	"category": "Industry",
+	"description": "Optimal processing of mined materials have allowed us to reach new levels of efficiency.",
+	"feature_unlocks": ["Mineral Storage Capacity: +1000", "Unlocks Building: Mineral Silo II", "Unlocks Building: Mineral Processing Plant I"],
+	"is": [false, false, false, false],
+	"key": "mineral_processing_1",
+	"name": "Mineral Processing",
+	"prerequisites": ["mining_network_2"],
+	"tier": 1
+}, {
+	"area": "engineering",
+	"category": "Industry",
+	"description": "Advanced instrumentation allows for the study and practical application of physical systems at nanometric scales.",
+	"feature_unlocks": ["Unlocks Building: Engineering Facility I"],
+	"is": [false, false, false, false],
+	"key": "engineering_lab_1",
+	"name": "Nanomechanics",
+	"prerequisites": ["basic_science_lab_1"],
+	"tier": 1
+}, {
+	"area": "engineering",
+	"category": "Industry",
+	"description": "These robotic work units are perfect for menial labor tasks. They are hard-working and capable of following simple vocal instructions, but should not be expected to climb stairs.",
+	"feature_unlocks": ["Unlocks Buildable Pop: Robot"],
+	"is": [false, false, false, false],
+	"key": "robotic_workers",
+	"name": "Robotic Workers",
+	"prerequisites": ["powered_exoskeletons"],
+	"tier": 1
+}, {
+	"area": "engineering",
+	"category": "Industry",
+	"description": "",
+	"feature_unlocks": ["Building Build Speed: +25%"],
+	"is": [false, false, false, false],
+	"key": "assembly_pattern",
+	"name": "Assembly Patterns",
+	"prerequisites": ["engineering_lab_1"],
+	"tier": 1
+}, {
+	"area": "engineering",
+	"category": "Materials",
+	"description": "Coilguns are more powerful versions of the early mass drivers, using electromagnetic coils to rapidly accelerate projectiles towards targets.",
+	"feature_unlocks": ["Unlocks Component: Small Coilgun", "Unlocks Component: Medium Coilgun", "Unlocks Component: Large Coilgun"],
+	"is": [false, false, false, false],
+	"key": "mass_drivers_2",
+	"name": "Coilguns",
+	"prerequisites": ["mass_drivers_1"],
+	"tier": 1
+}, {
+	"area": "engineering",
+	"category": "Rocketry",
+	"description": "Space-to-space missiles equipped with high-yield nuclear warheads. Although based on old pre-space technology, these crude fire-and-forget weapons can be surprisingly effective at range.",
+	"feature_unlocks": ["Unlocks Component: Small Nuclear Missiles", "Unlocks Component: Medium Nuclear Missiles", "Unlocks Component: Large Nuclear Missiles", "Unlocks Module: Missile Defense Module"],
+	"is": [false, false, false, false],
+	"key": "missiles_1",
+	"name": "Nuclear Missiles",
+	"prerequisites": [],
+	"tier": 1
+}, {
+	"area": "engineering",
+	"category": "Rocketry",
+	"description": "These updated space-to-space missiles have more powerful fusion warheads and improved flight performance.",
+	"feature_unlocks": ["Unlocks Component: Small Fusion Missiles", "Unlocks Component: Medium Fusion Missiles", "Unlocks Component: Large Fusion Missiles"],
+	"is": [false, false, false, false],
+	"key": "missiles_2",
+	"name": "Fusion Missiles",
+	"prerequisites": ["missiles_1"],
+	"tier": 1
+}, {
+	"area": "engineering",
+	"category": "Rocketry",
+	"description": "These torpedoes are essentially very large, slow-moving missiles. They are equipped with more powerful warheads and shield modulators that let them slip unmolested through energy screens.",
+	"feature_unlocks": ["Unlocks Component: Space Torpedoes"],
+	"is": [false, false, false, false],
+	"key": "torpedoes_1",
+	"name": "Space Torpedoes",
+	"prerequisites": ["missiles_2"],
+	"tier": 1
+}, {
+	"area": "engineering",
+	"category": "Materials",
+	"description": "Establishing successful Garanthium quarries poses unique challenges, as the malleable qualities of the ore make it as difficult to mine as it is attractive.",
+	"feature_unlocks": ["Reveals Resource: Garanthium Ore ([[sr_garanthium]])"],
+	"is": [false, false, false, false],
+	"key": "mine_garanthium",
+	"name": "Garanthium Mining",
+	"prerequisites": ["mineral_processing_1"],
+	"tier": 1
+}, {
+	"area": "engineering",
+	"category": "Materials",
+	"description": "Teldar crystals emanate tell-tale wavelengths of light outside the visible spectrum.",
+	"feature_unlocks": ["Reveals Resource: Teldar Crystals ([[sr_teldar]])"],
+	"is": [false, false, false, false],
+	"key": "mine_teldar",
+	"name": "Teldar Crystal Mining",
+	"prerequisites": ["mineral_processing_1"],
+	"tier": 1
+}, {
+	"area": "engineering",
+	"category": "Materials",
+	"description": "Yurantic crystals have rare reflective properties that enhance the effectiveness of energy weapons.",
+	"feature_unlocks": ["Reveals Resource: Yurantic Crystals ([[sr_yuranic]])"],
+	"is": [false, false, false, false],
+	"key": "mine_yuranic",
+	"name": "Yurantic Crystal Mining",
+	"prerequisites": ["mineral_processing_1"],
+	"tier": 1
+}, {
+	"area": "engineering",
+	"category": "Materials",
+	"description": "Stabilization beams allow relatively safe extraction of volatile Orillium ores.",
+	"feature_unlocks": ["Reveals Resource: Orillium Ore ([[sr_orillium]])"],
+	"is": [false, false, false, false],
+	"key": "mine_orillium",
+	"name": "Orillium Mining",
+	"prerequisites": ["mineral_processing_1"],
+	"tier": 1
+}, {
+	"area": "engineering",
+	"category": "Industry",
+	"description": "The Betharian minerals appear to have originated from singular source, but were scattered across the galaxy millennia ago. The minerals are most often encountered as pebble-sized clusters, and are highly flammable.",
+	"feature_unlocks": ["Unlocks Building: Betharian Power Plant"],
+	"is": [false, false, false, false],
+	"key": "mine_betharian",
+	"name": "Betharian Refining",
+	"prerequisites": ["space_construction"],
+	"tier": 1
+}, {
+	"area": "engineering",
+	"category": "Voidcraft",
+	"description": "State-of-the-art orbital construction techniques result in spaceports the size of major planet side cities.",
+	"feature_unlocks": ["Mineral Storage Capacity: +2000", "Unlocks Feature: Spaceport Level IV", "Unlocks Feature: Spaceport Level IV", "Unlocks Module: Destroyer Assembly Yards"],
+	"is": [false, false, false, false],
+	"key": "spaceport_4",
+	"name": "Advanced Spaceport",
+	"prerequisites": ["spaceport_3"],
+	"tier": 2
+}, {
+	"area": "engineering",
+	"category": "Voidcraft",
+	"description": "Expanded dry-docks allow for the construction of Cruiser-class military vessels.",
+	"feature_unlocks": ["Mineral Storage Capacity: +2000", "Unlocks Ship Type: Cruiser", "Unlocks Feature: Spaceport Level V"],
+	"is": [false, false, false, false],
+	"key": "spaceport_5",
+	"name": "Cruisers",
+	"prerequisites": ["spaceport_4"],
+	"tier": 2
+}, {
+	"area": "engineering",
+	"category": "Voidcraft",
+	"description": "Establishing new standards for the modeling and construction of cruisers greatly improves the efficiency of the production pipeline.",
+	"feature_unlocks": ["Unlocks Module: Cruiser Assembly Yards"],
+	"is": [false, false, false, false],
+	"key": "cruiser_yard",
+	"name": "Standardized Cruiser Patterns",
+	"prerequisites": ["spaceport_5"],
+	"tier": 2
+}, {
+	"area": "engineering",
+	"category": "Voidcraft",
+	"description": "Establishing new standards for how we design and construct massive battleships greatly improves the speed at which they can be assembled.",
+	"feature_unlocks": ["Unlocks Module: Battleship Assembly Yards"],
+	"is": [false, false, false, false],
+	"key": "battleship_yard",
+	"name": "Standardized Battleship Patterns",
+	"prerequisites": ["spaceport_6"],
+	"tier": 2
+}, {
+	"area": "engineering",
+	"category": "Voidcraft",
+	"description": "These manned, short-range strike craft are launched from a mothership and rely on their speed and small size to survive long enough to punch through enemy defenses.",
+	"feature_unlocks": ["Unlocks Component: Basic Fighter Wing", "Unlocks Component: Basic Bomber Wing"],
+	"is": [false, false, false, false],
+	"key": "strike_craft_1",
+	"name": "Carrier Operations",
+	"prerequisites": ["spaceport_5"],
+	"tier": 2
+}, {
+	"area": "engineering",
+	"category": "Voidcraft",
+	"description": "The next generation of strike craft, featuring improved avionics, better handling characteristics and more powerful armaments.",
+	"feature_unlocks": ["Unlocks Component: Improved Fighter Wing", "Unlocks Component: Improved Bomber Wing"],
+	"is": [false, false, false, false],
+	"key": "strike_craft_2",
+	"name": "Improved Strike Craft",
+	"prerequisites": ["strike_craft_1"],
+	"tier": 2
+}, {
+	"area": "engineering",
+	"category": "Voidcraft",
+	"description": "A further refinement in strike craft design, these advanced fighters and bombers are a pilot's dream. Their performance far exceeds that of previous models.",
+	"feature_unlocks": ["Unlocks Component: Advanced Fighter Wing", "Unlocks Component: Advanced Bomber Wing"],
+	"is": [false, false, false, false],
+	"key": "strike_craft_3",
+	"name": "Advanced Strike Craft",
+	"prerequisites": ["strike_craft_2"],
+	"tier": 2
+}, {
+	"area": "engineering",
+	"category": "Materials",
+	"description": "Plasteel is an elastic material that combines many of the qualities of plastics and metal. It is relatively cheap to produce and can be used to augment ship armor.",
+	"feature_unlocks": ["Unlocks Component: Small Plasteel Armor", "Unlocks Component: Medium Plasteel Armor", "Unlocks Component: Large Plasteel Armor"],
+	"is": [false, false, false, false],
+	"key": "ship_armor_3",
+	"name": "Plasteel Materials",
+	"prerequisites": ["ship_armor_2"],
+	"tier": 2
+}, {
+	"area": "engineering",
+	"category": "Materials",
+	"description": "This strong yet flexible material is capable of withstanding severe punishment. It serves well as ship armor.",
+	"feature_unlocks": ["Unlocks Component: Small Durasteel Armor", "Unlocks Component: Medium Durasteel Armor", "Unlocks Component: Large Durasteel Armor"],
+	"is": [false, false, false, false],
+	"key": "ship_armor_4",
+	"name": "Durasteel Materials",
+	"prerequisites": ["ship_armor_3"],
+	"tier": 2
+}, {
+	"area": "engineering",
+	"category": "Rocketry",
+	"description": "An advanced form of electric propulsion, plasma thrusters afford ships greater sublight speeds and maneuverability.",
+	"feature_unlocks": ["Unlocks Component: Plasma Thruster"],
+	"is": [false, false, false, false],
+	"key": "thrusters_3",
+	"name": "Plasma Thrusters",
+	"prerequisites": ["thrusters_2"],
+	"tier": 2
+}, {
+	"area": "engineering",
+	"category": "Voidcraft",
+	"description": "New construction methods will allow for the construction of even larger military stations in the depths of space.",
+	"feature_unlocks": ["Unlocks Station: Defense Station"],
+	"is": [false, false, false, false],
+	"key": "space_defense_station_2",
+	"name": "Deep Space Stations",
+	"prerequisites": ["space_defense_station_1"],
+	"tier": 2
+}, {
+	"area": "engineering",
+	"category": "Voidcraft",
+	"description": "The creation of a dedicated naval engineering corps will greatly benefit the construction of deep space defense platforms, decreasing building costs and increasing durability.",
+	"feature_unlocks": ["Military Station Build Cost: -15%", "Military Station Health: +25%"],
+	"is": [false, true, false, false],
+	"key": "space_defense_station_improvement",
+	"name": "Corps of Engineers",
+	"prerequisites": ["space_defense_station_2"],
+	"tier": 2
+}, {
+	"area": "engineering",
+	"category": "Industry",
+	"description": "These massive drills are needed to access the rich mineral deposits that can often be found close to a planet's core.",
+	"feature_unlocks": ["Mineral Storage Capacity: +1000", "Unlocks Building: Mining Network III"],
+	"is": [false, false, false, false],
+	"key": "mining_network_3",
+	"name": "Deep Core Mining",
+	"prerequisites": ["mining_network_2", "colonial_centralization"],
+	"tier": 2
+}, {
+	"area": "engineering",
+	"category": "Industry",
+	"description": "Advanced spectrometry combines with fracking techniques and chemical flushing to rapidly exploit shallow and mid-depth deposits.",
+	"feature_unlocks": ["Mineral Storage Capacity: +1000", "Unlocks Building: Mining Network IV", "Unlocks Building: Mining Network V"],
+	"is": [false, false, false, false],
+	"key": "mining_network_4",
+	"name": "Mineral Isolation",
+	"prerequisites": ["mining_network_3", "galactic_administration"],
+	"tier": 2
+}, {
+	"area": "engineering",
+	"category": "Industry",
+	"description": "Second-stage processing of pseudo-refined minerals allow for more efficient storage and transportation.",
+	"feature_unlocks": ["Mineral Storage Capacity: +1000", "Unlocks Building: Mineral Silo III", "Unlocks Building: Mineral Processing Plant II"],
+	"is": [false, false, false, false],
+	"key": "mineral_processing_2",
+	"name": "Advanced Mineral Processing",
+	"prerequisites": ["mineral_processing_1", "colonial_centralization"],
+	"tier": 2
+}, {
+	"area": "engineering",
+	"category": "Industry",
+	"description": "The production and understanding of supersolids are of immeasurable value to any and every space-age civilization.",
+	"feature_unlocks": ["Unlocks Building: Engineering Facility II"],
+	"is": [false, false, false, false],
+	"key": "engineering_lab_2",
+	"name": "Supersolid Materials",
+	"prerequisites": ["engineering_lab_1", "colonial_centralization"],
+	"tier": 2
+}, {
+	"area": "engineering",
+	"category": "Industry",
+	"description": "Upgraded robotic workers, these units have an expanded movement range equal to that of most organics. Their neural processors have also been greatly improved.",
+	"feature_unlocks": ["Unlocks Army: Robotic Army", "Unlocks Buildable Pop: Droid"],
+	"is": [false, false, false, false],
+	"key": "droid_workers",
+	"name": "Droids",
+	"prerequisites": ["robotic_workers", "colonial_centralization"],
+	"tier": 2
+}, {
+	"area": "engineering",
+	"category": "Rocketry",
+	"description": "These powerful thrusters provide additional combat speed but consume a great deal of power.",
+	"feature_unlocks": ["Unlocks Component: Afterburners"],
+	"is": [false, false, false, false],
+	"key": "afterburners_1",
+	"name": "Afterburners",
+	"prerequisites": ["thrusters_2"],
+	"tier": 2
+}, {
+	"area": "engineering",
+	"category": "Industry",
+	"description": "",
+	"feature_unlocks": ["Building Build Speed: +50%"],
+	"is": [false, true, false, false],
+	"key": "construction_templates",
+	"name": "Construction Templates",
+	"prerequisites": ["assembly_pattern"],
+	"tier": 2
+}, {
+	"area": "engineering",
+	"category": "Materials",
+	"description": "These electromagnetic projectile launchers use magnets to accelerate armor-piercing rounds towards targets at high speeds.",
+	"feature_unlocks": ["Unlocks Component: Small Mass Driver", "Unlocks Component: Medium Mass Driver", "Unlocks Component: Large Mass Driver", "Unlocks Module: Projectile Defense Module"],
+	"is": [false, false, false, false],
+	"key": "mass_drivers_1",
+	"name": "Mass Drivers",
+	"prerequisites": [],
+	"tier": 2
+}, {
+	"area": "engineering",
+	"category": "Materials",
+	"description": "The latest in electromagnetic accelerators, railguns use twin parallel rails to fire projectiles at incredible speeds.",
+	"feature_unlocks": ["Unlocks Component: Small Railgun", "Unlocks Component: Medium Railgun", "Unlocks Component: Large Railgun"],
+	"is": [false, false, false, false],
+	"key": "mass_drivers_3",
+	"name": "Railguns",
+	"prerequisites": ["mass_drivers_2"],
+	"tier": 2
+}, {
+	"area": "engineering",
+	"category": "Materials",
+	"description": "A new version of the venerable railgun, with sturdier rails and an enhanced power supply. These weapons are even more powerful and accurate than their predecessors.",
+	"feature_unlocks": ["Unlocks Component: Small Advanced Railgun", "Unlocks Component: Medium Advanced Railgun", "Unlocks Component: Large Advanced Railgun"],
+	"is": [false, false, false, false],
+	"key": "mass_drivers_4",
+	"name": "Advanced Railguns",
+	"prerequisites": ["mass_drivers_3"],
+	"tier": 2
+}, {
+	"area": "engineering",
+	"category": "Materials",
+	"description": "Large-caliber ballistic weapons that fire cased explosive shells. The main advantage of these cannons is their high rate of fire.",
+	"feature_unlocks": ["Unlocks Component: Small Autocannon", "Unlocks Component: Medium Autocannon", "Unlocks Component: Large Autocannon"],
+	"is": [false, false, false, false],
+	"key": "autocannons_1",
+	"name": "Autocannons",
+	"prerequisites": ["mass_drivers_2"],
+	"tier": 2
+}, {
+	"area": "engineering",
+	"category": "Materials",
+	"description": "These upgraded rotary autocannons feature improved tracking and fire control systems. This allows them to maintain an even higher rate of fire.",
+	"feature_unlocks": ["Unlocks Component: Small Ripper Autocannon", "Unlocks Component: Medium Ripper Autocannon", "Unlocks Component: Large Ripper Autocannon"],
+	"is": [false, false, false, false],
+	"key": "autocannons_2",
+	"name": "Ripper Cannons",
+	"prerequisites": ["autocannons_1"],
+	"tier": 2
+}, {
+	"area": "engineering",
+	"category": "Materials",
+	"description": "Gun batteries that fire area effect shrapnel rounds at close range. They are particularly lethal to enemy strike craft, but can also inflict damage on larger ships.",
+	"feature_unlocks": ["Unlocks Component: Flak Battery"],
+	"is": [false, false, false, false],
+	"key": "flak_batteries_1",
+	"name": "Flak Battery",
+	"prerequisites": ["autocannons_2"],
+	"tier": 2
+}, {
+	"area": "engineering",
+	"category": "Rocketry",
+	"description": "Advanced missiles equipped with very powerful antimatter warheads. A new and improved guidance system gives them a better chance of finding their targets.",
+	"feature_unlocks": ["Unlocks Component: Small Antimatter Missiles", "Unlocks Component: Medium Antimatter Missiles", "Unlocks Component: Large Antimatter Missiles"],
+	"is": [false, false, false, false],
+	"key": "missiles_3",
+	"name": "Antimatter Missiles",
+	"prerequisites": ["missiles_2"],
+	"tier": 2
+}, {
+	"area": "engineering",
+	"category": "Rocketry",
+	"description": "The latest version of space-to-space missile, this upgraded variant has an immensely powerful warhead that draws its energy from a zero point vacuum.",
+	"feature_unlocks": ["Unlocks Component: Small Quantum Missiles", "Unlocks Component: Medium Quantum Missiles", "Unlocks Component: Large Quantum Missiles"],
+	"is": [false, false, false, false],
+	"key": "missiles_4",
+	"name": "Quantum Missiles",
+	"prerequisites": ["missiles_3"],
+	"tier": 2
+}, {
+	"area": "engineering",
+	"category": "Rocketry",
+	"description": "These smaller missiles are launched in volleys and have been specifically designed to overwhelm enemy point-defense systems.",
+	"feature_unlocks": ["Unlocks Component: Swarmer Missiles"],
+	"is": [false, false, false, false],
+	"key": "swarmer_missiles_1",
+	"name": "Swarmer Missiles",
+	"prerequisites": ["missiles_4"],
+	"tier": 2
+}, {
+	"area": "engineering",
+	"category": "Rocketry",
+	"description": "Upgraded space torpedoes encased in armor, to better withstand enemy point-defense fire. The armor fragments into shards that cause additional damage when the torpedo detonates.",
+	"feature_unlocks": ["Unlocks Component: Armored Torpedoes"],
+	"is": [false, false, false, false],
+	"key": "torpedoes_2",
+	"name": "Armored Torpedoes",
+	"prerequisites": ["torpedoes_1"],
+	"tier": 2
+}, {
+	"area": "engineering",
+	"category": "Voidcraft",
+	"description": "Expanded dry-docks allow for the construction of Battleship-class military vessels.",
+	"feature_unlocks": ["Mineral Storage Capacity: +2000", "Unlocks Ship Type: Battleship", "Unlocks Feature: Spaceport Level VI"],
+	"is": [false, false, false, false],
+	"key": "spaceport_6",
+	"name": "Battleships",
+	"prerequisites": ["spaceport_5"],
+	"tier": 3
+}, {
+	"area": "engineering",
+	"category": "Materials",
+	"description": "This incredibly dense and strong material can resist firepower that would turn armor made of any other alloys into slag.",
+	"feature_unlocks": ["Unlocks Component: Small Neutronium Armor", "Unlocks Component: Medium Neutronium Armor", "Unlocks Component: Large Neutronium Armor"],
+	"is": [false, false, false, false],
+	"key": "ship_armor_5",
+	"name": "Neutronium Materials",
+	"prerequisites": ["ship_armor_4", "mine_neutronium"],
+	"tier": 3
+}, {
+	"area": "engineering",
+	"category": "Rocketry",
+	"description": "These highly advanced fusion-powered thrusters provide ships with unmatched maneuverability and speed under sublight conditions.",
+	"feature_unlocks": ["Unlocks Component: Impulse Thruster"],
+	"is": [false, false, false, false],
+	"key": "thrusters_4",
+	"name": "Impulse Thrusters",
+	"prerequisites": ["thrusters_3"],
+	"tier": 3
+}, {
+	"area": "engineering",
+	"category": "Voidcraft",
+	"description": "These massive installations are like cities floating in space. They can support a crew of thousands, and are often equipped with firepower rivaling that of a fleet.",
+	"feature_unlocks": ["Unlocks Station: Fortress"],
+	"is": [false, false, false, false],
+	"key": "space_defense_station_3",
+	"name": "Deep Space Installations",
+	"prerequisites": ["space_defense_station_2"],
+	"tier": 3
+}, {
+	"area": "engineering",
+	"category": "Industry",
+	"description": "The study of superfluidity promises to marry quantum mechanics with the fundamental interaction of gravity.",
+	"feature_unlocks": ["Unlocks Building: Engineering Facility III", "Unlocks Building: Engineering Facility IV"],
+	"is": [false, false, false, false],
+	"key": "engineering_lab_3",
+	"name": "Superfluid Materials",
+	"prerequisites": ["engineering_lab_2", "galactic_administration"],
+	"tier": 3
+}, {
+	"area": "engineering",
+	"category": "Industry",
+	"description": "Highly advanced robots that are stronger, faster and more durable than the vast majority of organics. With their upgraded neural processors they are fully capable of independent operations.",
+	"feature_unlocks": ["Unlocks Army: Android Army", "Unlocks Buildable Pop: Synthetic", "Unlocks Policy: Artificial Intelligence - Citizen Rights"],
+	"is": [true, true, false, false],
+	"key": "synthetic_workers",
+	"name": "Synthetics",
+	"prerequisites": ["droid_workers", "galactic_administration", "sentient_ai"],
+	"tier": 3
+}, {
+	"area": "engineering",
+	"category": "Industry",
+	"description": "Equipped with a personality, synthetics will finally be able to interact socially on equal terms with the rest of our citizens. Some units may even assume leadership roles.",
+	"feature_unlocks": ["Unlocks Feature: Synth Leaders", "Unlocks Feature: Synth Leaders"],
+	"is": [false, false, false, false],
+	"key": "synthetic_leaders",
+	"name": "Synthetic Personality Matrix",
+	"prerequisites": ["synthetic_workers"],
+	"tier": 3
+}, {
+	"area": "engineering",
+	"category": "Rocketry",
+	"description": "This improved version of the standard afterburners provide an even greater boost to a ship's combat speed.",
+	"feature_unlocks": ["Unlocks Component: Advanced Afterburners"],
+	"is": [false, false, false, false],
+	"key": "afterburners_2",
+	"name": "Advanced Afterburners",
+	"prerequisites": ["afterburners_1", "thrusters_3"],
+	"tier": 3
+}, {
+	"area": "engineering",
+	"category": "Materials",
+	"description": "This updated version of the old coilgun design is even more destructive than the latest railgun designs. It is capable of launching projectiles with incredible accuracy and speed.",
+	"feature_unlocks": ["Unlocks Component: Small Gauss Cannon", "Unlocks Component: Medium Gauss Cannon", "Unlocks Component: Large Gauss Cannon"],
+	"is": [false, false, false, false],
+	"key": "mass_drivers_5",
+	"name": "Gauss Cannons",
+	"prerequisites": ["mass_drivers_4"],
+	"tier": 3
+}, {
+	"area": "engineering",
+	"category": "Materials",
+	"description": "Very long-range artillery capable of hurling powerful rounds over extreme distances with a large degree of accuracy.",
+	"feature_unlocks": ["Unlocks Component: Kinetic Battery"],
+	"is": [false, false, false, false],
+	"key": "kinetic_artillery_1",
+	"name": "Kinetic Battery",
+	"prerequisites": ["mass_drivers_4"],
+	"tier": 3
+}, {
+	"area": "engineering",
+	"category": "Materials",
+	"description": "An even more powerful long-range, ship-based artillery cannon, equipped with a new barrel and an upgraded fire control computer.",
+	"feature_unlocks": ["Unlocks Component: Kinetic Artillery"],
+	"is": [false, false, false, false],
+	"key": "kinetic_artillery_2",
+	"name": "Kinetic Artillery",
+	"prerequisites": ["kinetic_artillery_1"],
+	"tier": 3
+}, {
+	"area": "engineering",
+	"category": "Materials",
+	"description": "An enormous mass accelerator cannon that can only be placed in a spinal mount and fires monstrously powerful rounds over vast distances.",
+	"feature_unlocks": ["Unlocks Component: Mega Cannon"],
+	"is": [false, false, false, false],
+	"key": "mass_accelerator_1",
+	"name": "Mega Cannon",
+	"prerequisites": ["mass_drivers_5", "spaceport_6"],
+	"tier": 3
+}, {
+	"area": "engineering",
+	"category": "Materials",
+	"description": "An even more powerful mass accelerator cannon that can rip through even the toughest shields.",
+	"feature_unlocks": ["Unlocks Component: Giga Cannon"],
+	"is": [false, false, false, false],
+	"key": "mass_accelerator_2",
+	"name": "Giga Cannon",
+	"prerequisites": ["mass_accelerator_1"],
+	"tier": 3
+}, {
+	"area": "engineering",
+	"category": "Materials",
+	"description": "Advanced rotary autocannons capable of spewing a cloud of armor-piercing and high-explosive shells at a target.",
+	"feature_unlocks": ["Unlocks Component: Small Stormfire Autocannon", "Unlocks Component: Medium Stormfire Autocannon", "Unlocks Component: Large Stormfire Autocannon"],
+	"is": [false, false, false, false],
+	"key": "autocannons_3",
+	"name": "Stormfire Cannons",
+	"prerequisites": ["autocannons_2"],
+	"tier": 3
+}, {
+	"area": "engineering",
+	"category": "Materials",
+	"description": "Upgraded flak batteries with new, more powerful shrapnel rounds. They offer excellent defense against both strike craft and missiles.",
+	"feature_unlocks": ["Unlocks Component: Flak Artillery"],
+	"is": [false, false, false, false],
+	"key": "flak_batteries_2",
+	"name": "Flak Artillery",
+	"prerequisites": ["flak_batteries_1"],
+	"tier": 3
+}, {
+	"area": "engineering",
+	"category": "Rocketry",
+	"description": "These highly advanced missiles are equipped with limited onboard AI pilots that substantially improve their performance and ability to track targets.",
+	"feature_unlocks": ["Unlocks Component: Small Marauder Missiles", "Unlocks Component: Medium Marauder Missiles", "Unlocks Component: Large Marauder Missiles"],
+	"is": [false, false, false, false],
+	"key": "missiles_5",
+	"name": "Marauder Missiles",
+	"prerequisites": ["missiles_4"],
+	"tier": 3
+}, {
+	"area": "engineering",
+	"category": "Rocketry",
+	"description": "New miniaturization techniques will allow us to equip swarmer missiles with more powerful warheads and improved flight performance.",
+	"feature_unlocks": ["Unlocks Component: Whirlwind Missiles"],
+	"is": [false, false, false, false],
+	"key": "swarmer_missiles_2",
+	"name": "Whirlwind Missiles",
+	"prerequisites": ["swarmer_missiles_1"],
+	"tier": 3
+}, {
+	"area": "engineering",
+	"category": "Rocketry",
+	"description": "Advanced torpedoes with very powerful warheads. They have a sleeker design, faster engines and upgraded shield modulators for slipping through energy screens.",
+	"feature_unlocks": ["Unlocks Component: Devastator Torpedoes"],
+	"is": [false, false, false, false],
+	"key": "torpedoes_3",
+	"name": "Devastator Torpedoes",
+	"prerequisites": ["torpedoes_2"],
+	"tier": 3
+}, {
+	"area": "engineering",
+	"category": "Industry",
+	"description": "Changes in how mineral deposits are evaluated relative to each other lead to more efficient boring patterns.",
+	"feature_unlocks": ["Minerals: +5%"],
+	"is": [false, false, true, false],
+	"key": "improved_tile_mineral_output",
+	"name": "Extraction Patterns",
+	"prerequisites": ["mineral_processing_2"],
+	"tier": 3
+}, {
+	"area": "engineering",
+	"category": "Voidcraft",
+	"description": "Cross-linking weapon systems to fire in staggered volleys improves the actual damage output of Military Stations over time.",
+	"feature_unlocks": ["Military Station Damage: +10%"],
+	"is": [false, false, true, false],
+	"key": "improved_military_station_damage",
+	"name": "Synchronized Firing Patterns",
+	"prerequisites": ["space_defense_station_2"],
+	"tier": 3
+}, {
+	"area": "engineering",
+	"category": "Voidcraft",
+	"description": "Additional layers of armor plating within the structure itself improves the resilience of Military Stations.",
+	"feature_unlocks": ["Military Station Health: +10%"],
+	"is": [false, false, true, false],
+	"key": "improved_military_station_health",
+	"name": "Fortified Core Layers",
+	"prerequisites": ["space_defense_station_2"],
+	"tier": 3
+}, {
+	"area": "engineering",
+	"category": "Voidcraft",
+	"description": "Further increasing compartmentalization of shipboard spaces allows ships to sustain more damage before hull integrity reaches critically low levels.",
+	"feature_unlocks": ["Ship Hull Points: +5%"],
+	"is": [false, false, true, false],
+	"key": "improved_ship_health",
+	"name": "Hull Integrity",
+	"prerequisites": ["spaceport_4"],
+	"tier": 3
+}, {
+	"area": "engineering",
+	"category": "Materials",
+	"description": "Compressing suitable materials into ultra-dense forms is a cheap and efficient way to improve their ability to absorb weapons-grade impacts.",
+	"feature_unlocks": ["Armor: +5%"],
+	"is": [false, false, true, false],
+	"key": "improved_armor_output",
+	"name": "Matter Compression",
+	"prerequisites": ["ship_armor_3"],
+	"tier": 3
+}, {
+	"area": "engineering",
+	"category": "Rocketry",
+	"description": "With the chemical reaction tightly controlled by missile-board microprocessors, warhead detonations can be tuned for maximum effect for local conditions at the time of impact.",
+	"feature_unlocks": ["Explosive Weapon Damage: +5%"],
+	"is": [false, false, true, false],
+	"key": "weapon_type_explosive_damage",
+	"name": "Thermodynamic Yield Control",
+	"prerequisites": ["missiles_3"],
+	"tier": 3
+}, {
+	"area": "engineering",
+	"category": "Rocketry",
+	"description": "Advances in miniaturization allow for more rapid loading and discharging of rocket-propelled payloads.",
+	"feature_unlocks": ["Explosive Weapon Attack Speed: +5%"],
+	"is": [false, false, true, false],
+	"key": "weapon_type_explosive_fire_rate",
+	"name": "Miniaturized Pre-Igniters",
+	"prerequisites": ["missiles_3"],
+	"tier": 3
+}, {
+	"area": "engineering",
+	"category": "Materials",
+	"description": "Ultra-dense slugs can punch through even the strongest of projected shields.",
+	"feature_unlocks": ["Kinetic Weapon Damage: +5%"],
+	"is": [false, false, true, false],
+	"key": "weapon_type_kinetic_damage",
+	"name": "High-Density Munitions",
+	"prerequisites": ["mass_drivers_3"],
+	"tier": 3
+}, {
+	"area": "engineering",
+	"category": "Materials",
+	"description": "Minor technical advances combine with improved shipboard routines for handling munitions to provide a noticeable boost in fire rate.",
+	"feature_unlocks": ["Kinetic Weapon Attack Speed: +5%"],
+	"is": [false, false, true, false],
+	"key": "weapon_type_kinetic_fire_rate",
+	"name": "Loader Efficiency",
+	"prerequisites": ["mass_drivers_3"],
+	"tier": 3
+}, {
+	"area": "engineering",
+	"category": "Voidcraft",
+	"description": "Increasing the speed at which fighter pilots can process and act upon enemy positioning data elevates strike craft a few steps up the food chain.",
+	"feature_unlocks": ["Strike Craft Damage: +10%"],
+	"is": [false, false, true, false],
+	"key": "weapon_type_strike_craft_fire_damage",
+	"name": "Synapse Interceptors",
+	"prerequisites": ["spaceport_5"],
+	"tier": 3
+}, {
+	"area": "engineering",
+	"category": "Voidcraft",
+	"description": "Circulating excess heat from weapons discharge in order to prime munitions as they are loaded increases the rate of fire of strike craft weaponry.",
+	"feature_unlocks": ["Strike Craft Attack Speed: +10%"],
+	"is": [false, false, true, false],
+	"key": "weapon_type_strike_craft_fire_rate",
+	"name": "Heat Recyclers",
+	"prerequisites": ["spaceport_5"],
+	"tier": 3
+}, {
+	"area": "engineering",
+	"category": "Industry",
+	"description": "The application of game and puzzle theory has the potential to greatly optimize modular assembly and construction.",
+	"feature_unlocks": ["Building Build Speed: +10%"],
+	"is": [false, false, true, false],
+	"key": "reduced_building_time",
+	"name": "Assembly Algorithms",
+	"prerequisites": ["construction_templates"],
+	"tier": 3
+}, {
+	"area": "engineering",
+	"category": "Voidcraft",
+	"description": "To complete constructing projects of truly staggering scales we must first achieve a fundamental understanding of both the engineering and resource storage requirements for such megastructures.",
+	"feature_unlocks": ["Mineral Storage Capacity: +20000", "Building Build Speed: +50%"],
+	"is": [false, true, false, false],
+	"key": "mega_engineering",
+	"name": "Mega-Engineering",
+	"prerequisites": ["space_defense_station_3", "spaceport_6", "zero_point_power"],
+	"tier": 4
+}]
