@@ -1,0 +1,19 @@
+.leaf {
+    width: 452px;
+    height: 85px;
+    position: relative;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.leaf strong {
+    font-weight: bold;
+}
+
+.leaf h1 {
+    font-size: 1.4rem;
+}
+
+.leaf h2 {
+    font-size: 1.2rem;
+}

@@ -4,7 +4,7 @@ import { connect } from 'react-redux'
 
 const mapStateToProps = (state, ownProps) => {
     return {
-        tech: state.tech
+        tree: state.tree
     }
 }
 /* 
