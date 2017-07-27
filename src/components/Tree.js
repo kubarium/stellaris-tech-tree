@@ -1,4 +1,4 @@
-import '../styles/Leaf.css'
+import '../styles/Tree.css'
 
 import Leaf from '../containers/Leaf'
 import React from 'react';
