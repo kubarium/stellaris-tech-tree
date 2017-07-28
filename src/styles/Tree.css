@@ -40,6 +40,10 @@
     position: absolute;
     top: 4px;
     left: 420px;
+}.tech-repeatable{
+    position: absolute;
+    top: 2px;
+    left: 400px;
 }
 .tech-category{
     position: absolute;
