@@ -7,21 +7,30 @@ const Leaf = (props) => {
         "tech-bg-rare": props.data.is[1],
         "tech-bg-dangerous": props.data.is[0]
     })
+
+    let sizes = []
+    let sanitizedFeatures = []
+    function featureSanitizer(element) {
+        if (element.includes("Unlocks Component")) {
+            const replacedFeature = element.replace(RegExp(/(Small|Large|Medium)\s/, "g"), "")
+
+            sizes.push(RegExp.lastMatch.trim())
+
+            return sanitizedFeatures.includes(replacedFeature) === false ? sanitizedFeatures.push(replacedFeature) : null
+        } else {
+            return sanitizedFeatures.push(element)
+        }
+    }
+
+    props.data.feature_unlocks.forEach(featureSanitizer)
+    console.log(sanitizedFeatures)
     return (
         <div className={ leafBackground }>
           <h1>{ props.data.name }</h1>
           <ul>
-            { props.data.feature_unlocks.map((feature, index) => {
-                  const unlockedComponents = RegExp("Unlocks Component", "g").exec(feature)
-              
-                  if (unlockedComponents) {
-                      console.log(unlockedComponents)
-                  }
-                  return
-                  <li key={ index }>
-                    { feature }
-                  </li>
-              }) }
+            { sanitizedFeatures.map((feature, index) => <li key={ index }>
+                                                          { feature }
+                                                        </li>) }
           </ul>
           <img className="tech-img" src={ `/images/technologies/${props.data.key}.png` } />
           <img className="tech-category" src={ `/images/expertise/${props.data.category}.png` } title={ props.data.category } />
