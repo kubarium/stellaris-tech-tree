@@ -32,11 +32,16 @@ const Leaf = (props) => {
                                                           { feature }
                                                         </li>) }
           </ul>
+          <ul>
+            { sizes.map(size => <li key={ size }>
+                                  { size }
+                                </li>) }
+          </ul>
           <img className="tech-img" src={ `/images/technologies/${props.data.key}.png` } />
           <img className="tech-category" src={ `/images/expertise/${props.data.category}.png` } title={ props.data.category } />
           <img className="tech-area" src={ `/images/research-${props.data.area}.png` } title={ props.data.area } />
           { props.data.is[2] && <img className="tech-repeatable" src="/images/repeatable.png" title="Repeatable" /> }
-          { props.data.tier && <img className="tech-tier" src={ `/images/tier-${props.data.tier}.png` } title={ `Tier: ${props.data.tier}` } /> }
+          { props.data.tier > 0 && <img className="tech-tier" src={ `/images/tier-${props.data.tier}.png` } title={ `Tier: ${props.data.tier}` } /> }
         </div>
         );
 };

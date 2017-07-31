@@ -19,7 +19,7 @@
 
 .leaf ul {
     font-size: 1.2rem;
-    position: absolute;
+    position: relative;
     left: 67px;
     top: 29px;
 }
