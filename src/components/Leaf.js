@@ -1,8 +1,11 @@
+import '../styles/tech-interface.css'
+import '../styles/tech-icon.css'
+
 import React from 'react';
 import classNames from 'classnames'
 
 const Leaf = (props) => {
-    const leafBackground = classNames('leaf', {
+    const leafBackground = classNames('leaf tech-interface', {
         [`tech-bg-${props.data.area}`]: true,
         "tech-bg-rare": props.data.is[1],
         "tech-bg-dangerous": props.data.is[0]
@@ -14,7 +17,7 @@ const Leaf = (props) => {
         if (element.includes("Unlocks Component")) {
             const replacedFeature = element.replace(RegExp(/(Small|Large|Medium)\s/, "g"), "")
 
-            sizes.push(RegExp.lastMatch.trim())
+            sizes.push(RegExp.lastMatch.trim().toLowerCase())
 
             return sanitizedFeatures.includes(replacedFeature) === false ? sanitizedFeatures.push(replacedFeature) : null
         } else {
@@ -23,7 +26,7 @@ const Leaf = (props) => {
     }
 
     props.data.feature_unlocks.forEach(featureSanitizer)
-    console.log(sanitizedFeatures)
+
     return (
         <div className={ leafBackground }>
           <h1>{ props.data.name }</h1>
@@ -32,12 +35,12 @@ const Leaf = (props) => {
                                                           { feature }
                                                         </li>) }
           </ul>
-          <ul>
+          <ul className="clear">
             { sizes.map(size => <li key={ size }>
-                                  { size }
+                                  <span className="tech-interface size"></span>
                                 </li>) }
           </ul>
-          <img className="tech-img" src={ `/images/technologies/${props.data.key}.png` } />
+          <span className={ `tech-icon ${props.data.key}` } />
           <img className="tech-category" src={ `/images/expertise/${props.data.category}.png` } title={ props.data.category } />
           <img className="tech-area" src={ `/images/research-${props.data.area}.png` } title={ props.data.area } />
           { props.data.is[2] && <img className="tech-repeatable" src="/images/repeatable.png" title="Repeatable" /> }

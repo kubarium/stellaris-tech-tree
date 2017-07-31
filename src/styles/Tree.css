@@ -24,7 +24,7 @@
     top: 29px;
 }
 
-.tech-img {
+.tech-icon {
     position: absolute;
     bottom: 5px;
     left: 4px;
@@ -50,6 +50,10 @@
     top: 29px;
     left: 417px;
 }
+.clear{
+    clear: both;
+    outline: 1px solid red;
+}/* 
 .tech-bg-physics {
     background: url("/images/tech_bg_physics.png")
 }
@@ -68,4 +72,4 @@
 
 .tech-bg-dangerous {
     background: url("/images/tech_bg_dangerous.png")
-}
+} */
