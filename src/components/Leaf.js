@@ -30,14 +30,14 @@ const Leaf = (props) => {
     return (
         <div className={ leafBackground }>
           <h1>{ props.data.name }</h1>
-          <ul>
+          <ul className="features">
             { sanitizedFeatures.map((feature, index) => <li key={ index }>
                                                           { feature }
                                                         </li>) }
           </ul>
-          <ul className="clear">
+          <ul className="sizes">
             { sizes.map(size => <li key={ size }>
-                                  <span className="tech-interface size"></span>
+                                  <span className={ `tech-interface ${size}` }></span>
                                 </li>) }
           </ul>
           <span className={ `tech-icon ${props.data.key}` } />
