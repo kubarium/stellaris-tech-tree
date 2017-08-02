@@ -3,6 +3,7 @@ import '../styles/tech-icon.css'
 
 import React from 'react';
 import classNames from 'classnames'
+import renderHTML from 'react-render-html'
 
 const Leaf = (props) => {
     const leafBackground = classNames('leaf tech-interface', {
@@ -15,13 +16,19 @@ const Leaf = (props) => {
     let sanitizedFeatures = []
     function featureSanitizer(element) {
         if (element.includes("Unlocks Component")) {
-            const replacedFeature = element.replace(RegExp(/(Small|Large|Medium)\s/, "g"), "")
+            const replacedFeature = element.replace(new RegExp(/(Small|Large|Medium)\s/, "g"), "")
 
-            sizes.push(RegExp.lastMatch.trim().toLowerCase())
+            sizes.push(RegExp.$1.trim().toLowerCase())
 
             return sanitizedFeatures.includes(replacedFeature) === false ? sanitizedFeatures.push(replacedFeature) : null
         } else {
-            return sanitizedFeatures.push(element)
+            //const resource = RegExp(/\(\[\[sr_(.*?)\]\]\)/, "g").exec(element)
+            /* 
+                        console.log("$1", RegExp.$1)
+                        console.log("$2", RegExp.$2)
+             */
+            //return element
+            return sanitizedFeatures.push(renderHTML(element.replace(new RegExp(/\(\[\[sr_(.*?)\]\]\)/, "g"), `<span className="tech-interface ${RegExp.$1}"></span>`)))
         }
     }
 
@@ -41,8 +48,8 @@ const Leaf = (props) => {
                                 </li>) }
           </ul>
           <span className={ `tech-icon ${props.data.key}` } />
-          <img className="tech-category" src={ `/images/expertise/${props.data.category}.png` } title={ props.data.category } />
-          <img className="tech-area" src={ `/images/research-${props.data.area}.png` } title={ props.data.area } />
+          <span className={ `tech-category tech-interface ${props.data.category.replace(" ","-").toLowerCase()}` } title={ props.data.category } />
+          <span className={ `tech-area tech-interface ${props.data.area}` } title={ props.data.area } />
           { props.data.is[2] && <img className="tech-repeatable" src="/images/repeatable.png" title="Repeatable" /> }
           { props.data.tier > 0 && <img className="tech-tier" src={ `/images/tier-${props.data.tier}.png` } title={ `Tier: ${props.data.tier}` } /> }
         </div>
