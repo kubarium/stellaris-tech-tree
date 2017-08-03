@@ -16,19 +16,14 @@ const Leaf = (props) => {
     let sanitizedFeatures = []
     function featureSanitizer(element) {
         if (element.includes("Unlocks Component")) {
-            const replacedFeature = element.replace(new RegExp(/(Small|Large|Medium)\s/, "g"), "")
+
+            const replacedFeature = RegExp(/(Small|Large|Medium)\s/, "g").test(element) ? element.replace(RegExp.$1, "") : element
 
             sizes.push(RegExp.$1.trim().toLowerCase())
 
             return sanitizedFeatures.includes(replacedFeature) === false ? sanitizedFeatures.push(replacedFeature) : null
         } else {
-            //const resource = RegExp(/\(\[\[sr_(.*?)\]\]\)/, "g").exec(element)
-            /* 
-                        console.log("$1", RegExp.$1)
-                        console.log("$2", RegExp.$2)
-             */
-            //return element
-            return sanitizedFeatures.push(renderHTML(element.replace(new RegExp(/\(\[\[sr_(.*?)\]\]\)/, "g"), `<span className="tech-interface ${RegExp.$1}"></span>`)))
+            return new RegExp(/(\(\[\[sr_(.*?)\]\]\))/, "g").test(element) ? sanitizedFeatures.push(renderHTML(element.replace(RegExp.$1, `<span className="tech-interface ${RegExp.$2}"></span>`))) : sanitizedFeatures.push(element)
         }
     }
 

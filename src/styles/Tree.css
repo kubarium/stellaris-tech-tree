@@ -21,7 +21,7 @@
     font-size: 1.2rem;
     position: relative;
     left: 67px;
-    top: 29px;
+    top: 27px;
 }
 
 .tech-icon {
@@ -30,11 +30,14 @@
     left: 4px;
 }
 .features li{
-    padding: 1px 0;
+    line-height: 17px;
+}
+.features li span{
+    vertical-align: middle;
 }
 .sizes li{
     float: left;
-    padding: 3px 0;
+    padding: 2px 0;
 }
 .tech-area{
     position: absolute;
