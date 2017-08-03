@@ -45,8 +45,8 @@ const Leaf = (props) => {
           <span className={ `tech-icon ${props.data.key}` } />
           <span className={ `tech-category tech-interface ${props.data.category.replace(" ","-").toLowerCase()}` } title={ props.data.category } />
           <span className={ `tech-area tech-interface ${props.data.area}` } title={ props.data.area } />
-          { props.data.is[2] && <img className="tech-repeatable" src="/images/repeatable.png" title="Repeatable" /> }
-          { props.data.tier > 0 && <img className="tech-tier" src={ `/images/tier-${props.data.tier}.png` } title={ `Tier: ${props.data.tier}` } /> }
+          { props.data.is[2] && <span className={ `tech-repeatable tech-interface repeatable` } title="Repeatable" /> }
+          { props.data.tier > 0 && <span className={ `tech-tier tech-interface tier-${props.data.tier}` } title={ `Tier: ${props.data.tier}` } /> }
         </div>
         );
 };

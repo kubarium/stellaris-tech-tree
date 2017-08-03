@@ -44,7 +44,6 @@
     top: 1px;
     left: 433px;
 }
-
 .tech-tier{
     position: absolute;
     top: 4px;
@@ -59,23 +58,3 @@
     top: 29px;
     left: 417px;
 }
-/* 
-.tech-bg-physics {
-    background: url("/images/tech_bg_physics.png")
-}
-
-.tech-bg-society {
-    background: url("/images/tech_bg_society.png")
-}
-
-.tech-bg-engineering {
-    background: url("/images/tech_bg_engineering.png")
-}
-
-.tech-bg-rare {
-    background: url("/images/tech_bg_rare.png")
-}
-
-.tech-bg-dangerous {
-    background: url("/images/tech_bg_dangerous.png")
-} */
