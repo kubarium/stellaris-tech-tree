@@ -1,10 +1,10 @@
-import {Actions} from '../Actions'
+import { Actions } from '../Actions'
 import Tree from '../components/Tree'
 import { connect } from 'react-redux'
 
 const mapStateToProps = (state, ownProps) => {
     return {
-        tree: state.tree
+        tree: state.tree.filter(leaf => leaf.area === state.area)
     }
 }
 /* 
