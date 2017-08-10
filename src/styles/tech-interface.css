@@ -1,7 +1,7 @@
 /* ----------------------------------------------------
    created with http://www.codeandweb.com/texturepacker 
    ----------------------------------------------------
-   $TexturePacker:SmartUpdate:96b42852d047cfaee9cdd353a0179f55:48a9eab325835780f4565c0bfdffa72d:f613ac261efb10854c9d59dc2be4dbe4$
+   $TexturePacker:SmartUpdate:1eb8cbb329720fcd1e502bd7cbfe8a20:7d07a89b1839c4c9a4cfc21e1a3d1e7b:f613ac261efb10854c9d59dc2be4dbe4$
    ----------------------------------------------------
 
    usage: <span class="{-spritename-} sprite"></span>
@@ -12,46 +12,47 @@
 
 .tech-interface {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(/tech-interface.png);}
 
-.Engineering {width:18px; height:18px; background-position: -110px -2px}
-.Physics {width:18px; height:18px; background-position: -150px -2px}
-.Society {width:18px; height:18px; background-position: -130px -2px}
-.biology {width:29px; height:29px; background-position: -114px -23px}
-.computing {width:29px; height:29px; background-position: -207px -23px}
-.dark_matter {width:19px; height:19px; background-position: -212px -2px}
-.engos {width:19px; height:19px; background-position: -380px -2px}
-.field-manipulation {width:29px; height:29px; background-position: -393px -23px}
-.garanthium {width:19px; height:19px; background-position: -422px -2px}
-.industry {width:29px; height:29px; background-position: -176px -23px}
-.large {width:25px; height:22px; background-position: -56px -23px}
-.lythuric {width:19px; height:19px; background-position: -359px -2px}
-.materials {width:29px; height:29px; background-position: -83px -23px}
-.medium {width:25px; height:22px; background-position: -29px -23px}
-.military-theory {width:29px; height:29px; background-position: -331px -23px}
-.minus {width:12px; height:12px; background-position: -2px -2px}
-.neutronium {width:19px; height:19px; background-position: -401px -2px}
-.new-worlds {width:29px; height:29px; background-position: -238px -23px}
-.orillium {width:19px; height:19px; background-position: -254px -2px}
-.particles {width:29px; height:29px; background-position: -362px -23px}
-.pitharan {width:19px; height:19px; background-position: -191px -2px}
-.plus {width:12px; height:12px; background-position: -16px -2px}
-.psionics {width:29px; height:29px; background-position: -424px -23px}
-.repeatable {width:18px; height:14px; background-position: -90px -2px}
-.rocketry {width:29px; height:29px; background-position: -300px -23px}
-.satramene {width:19px; height:19px; background-position: -338px -2px}
-.small {width:25px; height:22px; background-position: -2px -23px}
-.statecraft {width:29px; height:29px; background-position: -269px -23px}
-.tech-bg-Engineering {width:452px; height:85px; background-position: -2px -315px}
-.tech-bg-Physics {width:452px; height:85px; background-position: -2px -402px}
-.tech-bg-Society {width:452px; height:85px; background-position: -2px -228px}
-.tech-bg-dangerous {width:452px; height:85px; background-position: -2px -141px}
-.tech-bg-rare {width:452px; height:85px; background-position: -2px -54px}
-.teldar {width:19px; height:19px; background-position: -233px -2px}
-.terraform_gases {width:19px; height:19px; background-position: -296px -2px}
-.terraform_liquids {width:19px; height:19px; background-position: -317px -2px}
-.tier-1 {width:13px; height:13px; background-position: -45px -2px}
-.tier-2 {width:13px; height:13px; background-position: -75px -2px}
-.tier-3 {width:13px; height:13px; background-position: -60px -2px}
-.tier-4 {width:13px; height:13px; background-position: -30px -2px}
-.voidcraft {width:29px; height:29px; background-position: -145px -23px}
-.yuranic {width:19px; height:19px; background-position: -275px -2px}
-.zro {width:19px; height:19px; background-position: -170px -2px}
+.Engineering {width:18px; height:18px; background-position: -1325px -173px}
+.Physics {width:18px; height:18px; background-position: -1287px -173px}
+.Society {width:18px; height:18px; background-position: -1306px -173px}
+.area:hover {width:293px; height:45px; background-position: -907px -87px}
+.area-off {width:293px; height:45px; background-position: -1px -173px}
+.area-on {width:293px; height:45px; background-position: -295px -173px}
+.biology {width:29px; height:29px; background-position: -919px -173px}
+.computing {width:29px; height:29px; background-position: -859px -173px}
+.dark_matter {width:19px; height:19px; background-position: -1127px -173px}
+.engos {width:19px; height:19px; background-position: -1147px -173px}
+.field-manipulation {width:29px; height:29px; background-position: -709px -173px}
+.garanthium {width:19px; height:19px; background-position: -1167px -173px}
+.industry {width:29px; height:29px; background-position: -589px -173px}
+.large {width:25px; height:22px; background-position: -949px -173px}
+.lythuric {width:19px; height:19px; background-position: -1187px -173px}
+.materials {width:29px; height:29px; background-position: -619px -173px}
+.medium {width:25px; height:22px; background-position: -975px -173px}
+.military-theory {width:29px; height:29px; background-position: -679px -173px}
+.neutronium {width:19px; height:19px; background-position: -1267px -173px}
+.new-worlds {width:29px; height:29px; background-position: -799px -173px}
+.orillium {width:19px; height:19px; background-position: -1247px -173px}
+.particles {width:29px; height:29px; background-position: -649px -173px}
+.pitharan {width:19px; height:19px; background-position: -1107px -173px}
+.psionics {width:29px; height:29px; background-position: -889px -173px}
+.repeatable {width:18px; height:14px; background-position: -1px -219px}
+.rocketry {width:29px; height:29px; background-position: -739px -173px}
+.satramene {width:19px; height:19px; background-position: -1207px -173px}
+.small {width:25px; height:22px; background-position: -1001px -173px}
+.statecraft {width:29px; height:29px; background-position: -829px -173px}
+.tech-bg-Engineering {width:452px; height:85px; background-position: -1px -1px}
+.tech-bg-Physics {width:452px; height:85px; background-position: -1px -87px}
+.tech-bg-Society {width:452px; height:85px; background-position: -454px -87px}
+.tech-bg-dangerous {width:452px; height:85px; background-position: -454px -1px}
+.tech-bg-rare {width:452px; height:85px; background-position: -907px -1px}
+.teldar {width:19px; height:19px; background-position: -1067px -173px}
+.terraform_gases {width:19px; height:19px; background-position: -1087px -173px}
+.terraform_liquids {width:19px; height:19px; background-position: -1047px -173px}
+.tier-1 {width:13px; height:13px; background-position: -20px -219px}
+.tier-2 {width:13px; height:13px; background-position: -34px -219px}
+.tier-3 {width:13px; height:13px; background-position: -48px -219px}
+.tier-4 {width:13px; height:13px; background-position: -62px -219px}
+.voidcraft {width:29px; height:29px; background-position: -769px -173px}
+.yuranic {width:19px; height:19px; background-position: -1027px -173px}
+.zro {width:19px; height:19px; background-position: -1227px -173px}

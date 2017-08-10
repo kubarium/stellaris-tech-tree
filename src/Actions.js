@@ -1,10 +1,16 @@
-export const GET_DATA = "getData"
+export const CHANGE_AREA = "changeArea"
+export const HOVER_AREA = "hoverArea"
 
-export function getData() {
-    return function (dispatch) {
-        /* axios
-            .get('/api/' + keyword)
-            .then(result => dispatch(searchSuccess(result.data.monsters)))
-            .catch(error => dispatch(searchFailure(error))) */
+export function changeArea(name) {
+    return {
+        type: CHANGE_AREA,
+        name
+    }
+}
+
+export function hoverArea(name) {
+    return {
+        type: HOVER_AREA,
+        name
     }
 }

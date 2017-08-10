@@ -1,0 +1,10 @@
+.areas{
+    margin: 25px auto;    
+    text-align: center;
+}
+.area{
+    margin: 0 17px;
+    color:white;
+    line-height: 45px;
+    font-size: 1.8rem;
+}

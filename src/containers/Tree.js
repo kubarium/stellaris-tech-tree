@@ -4,7 +4,7 @@ import { connect } from 'react-redux'
 
 const mapStateToProps = (state, ownProps) => {
     return {
-        tree: state.tree.filter(leaf => leaf.area === state.area)
+        tree: state.tree.filter(leaf => leaf.area === state.areas.filter(area => area.active).map(area => area.name)[0])
     }
 }
 /* 
