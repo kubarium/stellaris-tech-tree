@@ -7,14 +7,14 @@ import Area from '../containers/Area'
 import Tree from '../containers/Tree'
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <Area/>
-        <Tree/>
-      </div>
-      );
-  }
+    render() {
+        return (
+            <div className="App">
+              <Area/>
+              <Tree/>
+            </div>
+            );
+    }
 }
 
 export default App;

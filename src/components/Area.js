@@ -9,10 +9,10 @@ const Area = (props) => {
         <ul className="areas">
           { props
                 .areas
-                .map(area => <li onMouseOver={ props.hoverArea } onClick={ props.changeArea } data-area={ area.name } className={ classNames('area tech-interface', {
-                                                                                                                     'area-on': area.active,
-                                                                                                                     'area-off': !area.active
-                                                                                                                 }) }>
+                .map(area => <li key={ area.name } onClick={ props.changeArea } data-area={ area.name } className={ classNames('area tech-interface', {
+                                                                                                       'area-on': area.active,
+                                                                                                       'area-off': !area.active
+                                                                                                   }) }>
                                { area.name }
                              </li>) }
         </ul>

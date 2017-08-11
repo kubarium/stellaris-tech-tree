@@ -1,11 +1,18 @@
+.tree{
+    width:960px;
+    text-align: center;
+    outline: 1px solid red;
+    margin: 0 auto;
+}
 .leaf {
     width: 452px;
     height: 85px;
     position: relative;
     color: white;
-    
+    margin: 4px;
+    display: inline-block;
+    text-align: initial;
 }
-
 .leaf strong {
     font-weight: bold;
 }
@@ -57,4 +64,28 @@
     position: absolute;
     top: 29px;
     left: 417px;
+}
+
+[data-tier]{
+    
+    
+}
+[data-tier="0"]{
+    top:0px;
+}
+[data-tier="1"]{
+    top:100px;
+}
+[data-tier="2"]{
+    clear: both;
+    top:200px;
+}
+[data-tier="3"]{
+    top:300px;
+}
+[data-tier="4"]{
+    top:400px;
+}
+[data-tier="5"]{
+    top:500px;
 }

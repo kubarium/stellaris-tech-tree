@@ -16,12 +16,15 @@ const Leaf = (props) => {
     let sanitizedFeatures = []
     function featureSanitizer(element) {
         if (element.includes("Unlocks Component")) {
+            if (RegExp(/(Small|Large|Medium)\s/, "g").test(element)) {
 
-            const replacedFeature = RegExp(/(Small|Large|Medium)\s/, "g").test(element) ? element.replace(RegExp.$1, "") : element
+                const replacedFeature = element.replace(RegExp.$1, "")
 
-            sizes.push(RegExp.$1.trim().toLowerCase())
-
-            return sanitizedFeatures.includes(replacedFeature) === false ? sanitizedFeatures.push(replacedFeature) : null
+                sizes.push(RegExp.$1.trim().toLowerCase())
+                return sanitizedFeatures.includes(replacedFeature) === false ? sanitizedFeatures.push(replacedFeature) : null
+            } else {
+                return sanitizedFeatures.push(element)
+            }
         } else {
             return new RegExp(/(\(\[\[sr_(.*?)\]\]\))/, "g").test(element) ? sanitizedFeatures.push(renderHTML(element.replace(RegExp.$1, `<span className="tech-interface ${RegExp.$2}"></span>`))) : sanitizedFeatures.push(element)
         }
@@ -30,7 +33,7 @@ const Leaf = (props) => {
     props.data.feature_unlocks.forEach(featureSanitizer)
 
     return (
-        <div className={ leafBackground }>
+        <div className={ leafBackground } data-tier={ props.data.tier }>
           <h1>{ props.data.name }</h1>
           <ul className="features">
             { sanitizedFeatures.map((feature, index) => <li key={ index }>
