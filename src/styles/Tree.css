@@ -1,17 +1,30 @@
 .tree{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    outline: 1px solid red;
+    /*
     width:96%;
     text-align: center;
-    outline: 1px solid red;
     margin: 0 auto;
+    */
+
 }
 .leaf {
+    order:0;
+    color: white;
+    outline: 1px solid yellow;
+    position: relative;
+    margin: auto;
+    /*
     width: 452px;
     height: 85px;
-    position: relative;
-    color: white;
     margin: 4px;
     display: inline-block;
     text-align: initial;
+    */
 }
 .leaf strong {
     font-weight: bold;
@@ -65,7 +78,7 @@
     top: 29px;
     left: 417px;
 }
-
+/*
 [data-tier]{
     
     
@@ -89,3 +102,4 @@
 [data-tier="5"]{
     top:500px;
 }
+*/
